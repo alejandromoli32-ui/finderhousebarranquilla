@@ -29,11 +29,11 @@ exports.handler = async (event, context) => {
       connectLambda(event);
     }
 
-    const store = getStore({ name: "barranquilla_rentals", consistency: "strong" });
+    const store = getStore("barranquilla_rentals");
 
-    // 1. GET Request: Read shared state with strong consistency
+    // 1. GET Request: Read shared state
     if (event.httpMethod === "GET") {
-      let state = await store.get("tracking", { type: "json", consistency: "strong" });
+      let state = await store.get("tracking", { type: "json" });
       if (!state || typeof state !== "object" || Array.isArray(state)) {
         state = DEFAULT_STATE;
       }
@@ -47,7 +47,7 @@ exports.handler = async (event, context) => {
     // 2. POST Request: Merge and persist shared state
     if (event.httpMethod === "POST") {
       const body = JSON.parse(event.body || "{}");
-      let current = await store.get("tracking", { type: "json", consistency: "strong" });
+      let current = await store.get("tracking", { type: "json" });
       if (!current || typeof current !== "object" || Array.isArray(current) || !current.properties) {
         current = JSON.parse(JSON.stringify(DEFAULT_STATE));
       }
