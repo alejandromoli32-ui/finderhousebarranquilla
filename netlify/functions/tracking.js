@@ -1,4 +1,4 @@
-const { getStore } = require("@netlify/blobs");
+const { connectLambda, getStore } = require("@netlify/blobs");
 
 const DEFAULT_STATE = {
   version: "1.0",
@@ -23,6 +23,11 @@ exports.handler = async (event, context) => {
   }
 
   try {
+    // Connect the blobs client to the environment using the Lambda event
+    if (typeof connectLambda === 'function') {
+      connectLambda(event);
+    }
+
     const store = getStore("barranquilla_rentals");
 
     // 1. GET Request: Read shared state
