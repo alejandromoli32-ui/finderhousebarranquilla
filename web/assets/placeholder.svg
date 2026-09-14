@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bgGrad)" />
+  
+  <!-- Subtle architectural grid -->
+  <g opacity="0.1" stroke="#ffffff" stroke-width="1">
+    <line x1="50" y1="0" x2="50" y2="250" />
+    <line x1="100" y1="0" x2="100" y2="250" />
+    <line x1="150" y1="0" x2="150" y2="250" />
+    <line x1="200" y1="0" x2="200" y2="250" />
+    <line x1="250" y1="0" x2="250" y2="250" />
+    <line x1="300" y1="0" x2="300" y2="250" />
+    <line x1="350" y1="0" x2="350" y2="250" />
+    <line x1="0" y1="50" x2="400" y2="50" />
+    <line x1="0" y1="100" x2="400" y2="100" />
+    <line x1="0" y1="150" x2="400" y2="150" />
+    <line x1="0" y1="200" x2="400" y2="200" />
+  </g>
+
+  <!-- Central Building / Apartment Icon -->
+  <g transform="translate(160, 65)">
+    <!-- Main building -->
+    <rect x="10" y="20" width="60" height="85" rx="3" fill="#334155" stroke="#0d9488" stroke-width="2" />
+    <!-- Tower -->
+    <rect x="25" y="5" width="30" height="18" rx="2" fill="#1e293b" stroke="#14b8a6" stroke-width="1.5" />
+    
+    <!-- Windows -->
+    <rect x="18" y="28" width="10" height="12" rx="1.5" fill="#38bdf8" opacity="0.8" />
+    <rect x="34" y="28" width="10" height="12" rx="1.5" fill="#38bdf8" opacity="0.8" />
+    <rect x="50" y="28" width="10" height="12" rx="1.5" fill="#38bdf8" opacity="0.8" />
+    
+    <rect x="18" y="46" width="10" height="12" rx="1.5" fill="#fcd34d" opacity="0.9" />
+    <rect x="34" y="46" width="10" height="12" rx="1.5" fill="#38bdf8" opacity="0.8" />
+    <rect x="50" y="46" width="10" height="12" rx="1.5" fill="#38bdf8" opacity="0.8" />
+
+    <rect x="18" y="64" width="10" height="12" rx="1.5" fill="#38bdf8" opacity="0.8" />
+    <rect x="34" y="64" width="10" height="12" rx="1.5" fill="#fcd34d" opacity="0.9" />
+    <rect x="50" y="64" width="10" height="12" rx="1.5" fill="#38bdf8" opacity="0.8" />
+
+    <!-- Entrance Door -->
+    <rect x="34" y="85" width="12" height="20" rx="1" fill="#0d9488" />
+  </g>
+
+  <!-- Text badge -->
+  <rect x="110" y="182" width="180" height="28" rx="14" fill="#0f172a" opacity="0.85" stroke="#334155" stroke-width="1" />
+  <text x="200" y="201" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" text-anchor="middle">Foto en verificación</text>
+</svg>

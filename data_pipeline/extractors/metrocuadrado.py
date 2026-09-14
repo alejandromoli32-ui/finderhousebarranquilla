@@ -1,0 +1,390 @@
+"""
+data_pipeline/extractors/metrocuadrado.py
+Extractor for Metrocuadrado rental listings in Barranquilla Norte.
+Queries Next.js RSC stream endpoint with RSC: 1 header.
+Conforms strictly to PROJECT.md schema.
+"""
+
+import json
+import logging
+import os
+import re
+import ssl
+import time
+import urllib.request
+from typing import Any, Dict, List, Optional, Tuple
+
+logger = logging.getLogger("MetrocuadradoExtractor")
+
+DEFAULT_NEIGHBORHOOD_SLUGS: List[Tuple[str, str, str]] = [
+    ("miramar", "Miramar", "Noroccidente"),
+    ("villa-carolina", "Villa Carolina", "Norte"),
+    ("villa-country", "Villa Country", "Norte"),
+    ("alto-prado", "Alto Prado", "Norte"),
+    ("villa-santos", "Villa Santos", "Noroccidente"),
+    ("riomar", "Riomar", "Noroccidente"),
+    ("el-golf", "El Golf", "Norte"),
+    ("ciudad-mallorquin", "Ciudad Mallorquin", "Noroccidente"),
+    ("altos-de-riomar", "Altos de Riomar", "Noroccidente"),
+    ("buenavista", "Buenavista", "Noroccidente"),
+    ("paraiso", "Paraiso", "Norte"),
+    ("bellavista", "Bellavista", "Norte"),
+    ("el-prado", "El Prado", "Norte"),
+    ("el-limoncito", "El Limoncito", "Norte"),
+    ("tabor", "El Tabor", "Noroccidente"),
+    ("los-alpes", "Los Alpes", "Noroccidente"),
+    ("andalucia", "Andalucia", "Noroccidente"),
+    ("san-vicente", "San Vicente", "Norte"),
+    ("la-campina", "La Campina", "Noroccidente"),
+    ("la-cumbre", "La Cumbre", "Noroccidente")
+]
+
+
+def clean_neighborhood_name(name: Optional[str]) -> str:
+    """Cleans raw neighborhood string into title case without zone noise."""
+    if not name:
+        return "Norte"
+    name = str(name).strip()
+    name = re.sub(r'(?i)\b(noroccidente|norte|barranquilla|atlantico)\b', '', name).strip()
+    words = name.split()
+    if not words:
+        return "Norte"
+    clean = []
+    for i, w in enumerate(words):
+        wl = w.lower()
+        if wl in ["de", "del", "la", "el", "los", "las", "y"] and i > 0:
+            clean.append(wl)
+        else:
+            clean.append(wl.capitalize())
+    return " ".join(clean)
+
+
+def normalize_whatsapp(phone: Optional[str], wa_raw: Optional[str]) -> str:
+    """Normalizes phone or WhatsApp string to international Colombian format (573...)."""
+    raw = wa_raw or phone or ""
+    digits = re.sub(r'\D', '', str(raw))
+    if len(digits) == 10 and digits.startswith("3"):
+        return "57" + digits
+    if len(digits) == 12 and digits.startswith("573"):
+        return digits
+    return digits
+
+
+class MetrocuadradoExtractor:
+    """
+    Production-grade extractor for Metrocuadrado using Next.js RSC streams.
+    """
+
+    BASE_URL = "https://www.metrocuadrado.com"
+    MAX_PRICE_CEILING = 2500000
+
+    def __init__(
+        self,
+        cache_path: Optional[str] = None,
+        timeout: int = 15,
+        max_retries: int = 3,
+        request_delay: float = 0.3
+    ):
+        self.cache_path = cache_path or os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            "cache",
+            "metrocuadrado_cache.json"
+        )
+        self.timeout = timeout
+        self.max_retries = max_retries
+        self.request_delay = request_delay
+        self.headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/128.0.0.0 Safari/537.36"
+            ),
+            "Accept": "text/x-component",
+            "RSC": "1",
+        }
+        self.ssl_context = ssl.create_default_context()
+        self.ssl_context.check_hostname = False
+        self.ssl_context.verify_mode = ssl.CERT_NONE
+
+    def parse_rsc_stream(self, body: str) -> List[Dict[str, Any]]:
+        """
+        Parses text/x-component RSC stream to extract listing items from initialResults or results array.
+        """
+        if not body:
+            return []
+
+        # Strategy 1: Find "initialResults":{ ... "results":[ ... ] }
+        start = body.find('"initialResults":{')
+        if start != -1:
+            obj_start = start + len('"initialResults":')
+            cnt = 0
+            for i in range(obj_start, len(body)):
+                if body[i] == '{':
+                    cnt += 1
+                elif body[i] == '}':
+                    cnt -= 1
+                    if cnt == 0:
+                        try:
+                            d = json.loads(body[obj_start:i + 1])
+                            return d.get("results", [])
+                        except Exception:
+                            break
+
+        # Strategy 2: Direct "results":[ ... ] array matching
+        res_pos = body.find('"results":[')
+        if res_pos != -1:
+            arr_start = res_pos + len('"results":')
+            cnt = 0
+            for i in range(arr_start, len(body)):
+                if body[i] == '[':
+                    cnt += 1
+                elif body[i] == ']':
+                    cnt -= 1
+                    if cnt == 0:
+                        try:
+                            return json.loads(body[arr_start:i + 1])
+                        except Exception:
+                            return []
+
+        # Strategy 3: Regex fallback if self.__next_f.push is present
+        matches = re.findall(r'self\.__next_f\.push\(\[1,\s*"(.*?)"\]\)', body)
+        if matches:
+            combined = ""
+            for m in matches:
+                try:
+                    combined += json.loads(f'"{m}"')
+                except Exception:
+                    combined += m
+            return self.parse_rsc_stream(combined)
+
+        return []
+
+    def normalize_property(
+        self,
+        itm: Dict[str, Any],
+        default_barrio: str = "Barranquilla",
+        default_zone: str = "Norte"
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Transforms raw Metrocuadrado listing into canonical schema matching PROJECT.md.
+        Enforces total_price <= 2.500.000 COP price ceiling strictly.
+        """
+        if not isinstance(itm, dict):
+            return None
+
+        mid = str(itm.get("midinmueble") or "").strip()
+        if not mid:
+            return None
+
+        # Financials
+        try:
+            raw_canon = itm.get("mvalorarriendo")
+            canon = int(round(float(raw_canon or 0)))
+        except (ValueError, TypeError):
+            canon = 0
+
+        admin_fee = 0
+        try:
+            raw_admin = itm.get("data", {}).get("mvaloradministracion")
+            if raw_admin is not None:
+                admin_fee = int(round(float(raw_admin)))
+        except (ValueError, TypeError):
+            admin_fee = 0
+
+        total_price = canon + admin_fee
+
+        # Strict price ceiling check
+        if total_price <= 0 or total_price > self.MAX_PRICE_CEILING:
+            return None
+
+        # Neighborhood & Zone
+        barrio_raw = itm.get("mnombrecomunbarrio") or itm.get("mbarrio") or default_barrio
+        neighborhood = clean_neighborhood_name(barrio_raw)
+
+        zona_obj = itm.get("mzona") or {}
+        zone_name = zona_obj.get("nombre") if isinstance(zona_obj, dict) else None
+        if not zone_name:
+            zone_name = default_zone
+
+        # Property type
+        ptype_raw = (itm.get("mtipoinmueble", {}) or {}).get("nombre", "Apartamento")
+        property_type = "Casa" if "casa" in str(ptype_raw).lower() else "Apartamento"
+
+        # Specs
+        try:
+            area_m2 = float(itm.get("marea") or itm.get("mareac") or 0.0)
+        except (ValueError, TypeError):
+            area_m2 = 0.0
+
+        try:
+            bedrooms = int(itm.get("mnrocuartos") or 1)
+        except (ValueError, TypeError):
+            bedrooms = 1
+
+        try:
+            bathrooms = int(itm.get("mnrobanos") or 1)
+        except (ValueError, TypeError):
+            bathrooms = 1
+
+        try:
+            parking = int(itm.get("mnrogarajes") or 0)
+        except (ValueError, TypeError):
+            parking = 0
+
+        try:
+            stratum = int(itm.get("estrato") or 4)
+        except (ValueError, TypeError):
+            stratum = 4
+
+        # Title & URL
+        title = itm.get("title") or f"{property_type} en Arriendo en {neighborhood}, Barranquilla"
+        link = itm.get("link") or itm.get("data", {}).get("murldetalle") or ""
+        if link.startswith("/"):
+            url = f"{self.BASE_URL}{link}"
+        elif link.startswith("http"):
+            url = link
+        else:
+            url = f"{self.BASE_URL}/inmueble/{mid}"
+
+        # Images
+        images: List[str] = []
+        main_img = itm.get("imageLink")
+        if main_img and isinstance(main_img, str):
+            hi_res_main = main_img.replace("_p.jpg", ".jpg")
+            images.append(hi_res_main)
+
+        gallery = itm.get("mgaleriainmueble") or []
+        for gid in gallery[:12]:
+            gurl = f"https://multimedia.metrocuadrado.com/{mid}/{gid}.jpg"
+            if gurl not in images:
+                images.append(gurl)
+
+        if not images and main_img:
+            images.append(main_img)
+
+        # Contact information (unmasked)
+        phone = str(itm.get("contactPhone") or "").strip()
+        wa_raw = str(itm.get("whatsapp") or "").strip()
+        whatsapp = normalize_whatsapp(phone, wa_raw)
+
+        visitor = str(itm.get("data", {}).get("mnombrevisitor") or "").strip()
+        owner_type = str(itm.get("OwnerType") or "Inmobiliaria").strip()
+        if any(k in visitor.lower() for k in ["s.a", "inmobiliaria", "sas", "ltda", "finca", "propiedades"]):
+            agency = visitor
+        else:
+            agency = owner_type or "Inmobiliaria"
+        agent_name = visitor if visitor and visitor != agency else "Asesor Comercial"
+
+        address = str(itm.get("mnombreproyecto") or f"{neighborhood}, Barranquilla").strip()
+        desc = str(itm.get("comment") or itm.get("whatsappMessage") or "").strip()
+
+        return {
+            "id": f"MQ-{mid}",
+            "portal": "Metrocuadrado",
+            "title": title,
+            "property_type": property_type,
+            "canon": canon,
+            "admin_fee": admin_fee,
+            "total_price": total_price,
+            "neighborhood": neighborhood,
+            "zone": zone_name,
+            "address": address,
+            "area_m2": area_m2,
+            "bedrooms": bedrooms,
+            "bathrooms": bathrooms,
+            "parking": parking,
+            "stratum": stratum,
+            "images": images,
+            "url": url,
+            "contact": {
+                "phone": phone,
+                "whatsapp": whatsapp,
+                "agency": agency,
+                "agent_name": agent_name
+            },
+            "description": desc,
+            "verified": True
+        }
+
+    def fetch_neighborhood(self, slug: str, default_barrio: str, default_zone: str) -> List[Dict[str, Any]]:
+        """Fetches listings for a specific neighborhood slug with retries."""
+        url = f"{self.BASE_URL}/apartamento-casa/arriendo/barranquilla/{slug}/"
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                req = urllib.request.Request(url, headers=self.headers)
+                with urllib.request.urlopen(req, timeout=self.timeout, context=self.ssl_context) as resp:
+                    if resp.status == 200:
+                        body = resp.read().decode('utf-8', errors='ignore')
+                        items = self.parse_rsc_stream(body)
+                        results = []
+                        for itm in items:
+                            mapped = self.normalize_property(itm, default_barrio, default_zone)
+                            if mapped:
+                                results.append(mapped)
+                        return results
+            except Exception as e:
+                logger.warning(f"Attempt {attempt}/{self.max_retries} failed for Metrocuadrado slug '{slug}': {e}")
+                if attempt < self.max_retries:
+                    time.sleep(1.0 * attempt)
+        return []
+
+    def extract_all(
+        self,
+        neighborhoods: Optional[List[Tuple[str, str, str]]] = None,
+        use_cache_on_failure: bool = True
+    ) -> List[Dict[str, Any]]:
+        """
+        Executes sweep across all Barranquilla Norte slugs, deduplicating by ID.
+        If extraction fails or produces 0 listings, falls back to local cache if enabled.
+        """
+        slugs = neighborhoods or DEFAULT_NEIGHBORHOOD_SLUGS
+        logger.info(f"Starting Metrocuadrado extraction across {len(slugs)} neighborhood slugs...")
+
+        collected: Dict[str, Dict[str, Any]] = {}
+
+        for slug, barrio, zone in slugs:
+            try:
+                items = self.fetch_neighborhood(slug, barrio, zone)
+                for itm in items:
+                    collected[itm["id"]] = itm
+            except Exception as e:
+                logger.error(f"Error extracting slug {slug}: {e}")
+            time.sleep(self.request_delay)
+
+        results = list(collected.values())
+        logger.info(f"Metrocuadrado live sweep returned {len(results)} qualified properties <= $2.5M COP")
+
+        if results:
+            self._save_cache(results)
+            return results
+
+        if use_cache_on_failure:
+            logger.warning("Metrocuadrado live extraction yielded 0 items. Attempting fallback cache...")
+            cached = self._load_cache()
+            if cached:
+                logger.info(f"Loaded {len(cached)} items from Metrocuadrado cache.")
+                return cached
+
+        return []
+
+    def _save_cache(self, items: List[Dict[str, Any]]) -> None:
+        """Saves extracted items to cache atomically."""
+        try:
+            os.makedirs(os.path.dirname(self.cache_path), exist_ok=True)
+            tmp_path = f"{self.cache_path}.tmp"
+            with open(tmp_path, "w", encoding="utf-8") as f:
+                json.dump(items, f, indent=2, ensure_ascii=False)
+            os.replace(tmp_path, self.cache_path)
+            logger.debug(f"Saved {len(items)} items to {self.cache_path}")
+        except Exception as e:
+            logger.warning(f"Could not save Metrocuadrado cache: {e}")
+
+    def _load_cache(self) -> List[Dict[str, Any]]:
+        """Loads cached items from file."""
+        if os.path.exists(self.cache_path):
+            try:
+                with open(self.cache_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception as e:
+                logger.warning(f"Failed to load cache from {self.cache_path}: {e}")
+        return []

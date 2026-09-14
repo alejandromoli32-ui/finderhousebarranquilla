@@ -1,0 +1,168 @@
+{
+  "contactPhone": "3007771690",
+  "whatsapp": "573007771690",
+  "title": "Apartamento en Arriendo, ALTO DE RIOMAR, Barranquilla",
+  "link": "/inmueble/arriendo-apartamento-barranquilla-abajo-2-habitaciones-1-banos-2-garajes/21602-M6953598",
+  "imageLink": "https://multimedia.metrocuadrado.com/21602-M6953598/21602-M6953598_1_p.jpg",
+  "whatsappMessage": "Hola, estoy interesado en el anuncio con ID: 21602-M6953598 que encontr\u00e9 en Metrocuadrado. Apartamento en Arriendo, ALTO DE RIOMAR, Barranquilla https://www.metrocuadrado.com",
+  "badge": null,
+  "areaPrivada": null,
+  "midinmueble": "21602-M6953598",
+  "mtipoinmueble": {
+    "id": "1",
+    "nombre": "Apartamento"
+  },
+  "mtiponegocio": "arriendo",
+  "mvalorventa": 0,
+  "mvalorarriendo": 3500000,
+  "marea": 84,
+  "mareac": 84,
+  "areaprivada": null,
+  "mnrocuartos": "2",
+  "mnrobanos": "1",
+  "mnrogarajes": "2",
+  "mciudad": {
+    "id": "5",
+    "nombre": "Barranquilla"
+  },
+  "ptags": null,
+  "mzona": {
+    "id": "59",
+    "nombre": "Noroccidente"
+  },
+  "mbarrio": "ABAJO",
+  "mnombrecomunbarrio": "ALTO DE RIOMAR",
+  "data": {
+    "mvaloradministracion": "1000000",
+    "mprimerafotoinmueble": "21602-M6953598_1",
+    "murldetalle": "/inmueble/arriendo-apartamento-barranquilla-abajo-2-habitaciones-1-banos-2-garajes/21602-M6953598",
+    "mnombrevisitor": "DEISY NI\u00d1O GOMEZ"
+  },
+  "mnombreproyecto": null,
+  "midempresa": "12186",
+  "mcontactoinmobiliaria_fijo1": null,
+  "ubicacionaproximada": "S",
+  "mestadoinmueble": "Usado",
+  "mcontactosucursal_celular1": null,
+  "mgrupoid": "01",
+  "morden": "1.0336",
+  "moferente": "RealEstate",
+  "signwall": "S",
+  "haswhatsappbot": "S",
+  "mgaleriainmueble": [
+    "21602-M6953598_1",
+    "21602-M6953598_2",
+    "21602-M6953598_3",
+    "21602-M6953598_4",
+    "21602-M6953598_5",
+    "21602-M6953598_6",
+    "21602-M6953598_7",
+    "21602-M6953598_8",
+    "21602-M6953598_9",
+    "21602-M6953598_10",
+    "21602-M6953598_11",
+    "21602-M6953598_12",
+    "21602-M6953598_13",
+    "21602-M6953598_14",
+    "21602-M6953598_15",
+    "21602-M6953598_16",
+    "21602-M6953598_17",
+    "21602-M6953598_18",
+    "21602-M6953598_19",
+    "21602-M6953598_20"
+  ],
+  "haswhatsappotp": null,
+  "cobertura": [],
+  "packages": {
+    "nitro": {
+      "state": "A",
+      "startDate": "2026-09-10T16:03:32.439Z"
+    }
+  },
+  "tipovivienda": null,
+  "feria": null,
+  "mnumero_contactos": 0,
+  "comment": "Disfruta de un estilo de vida acogedor en este amplio apartamento DUPLEX amoblado en el coraz\u00f3n del hist\u00f3rico barrio RIOMAR de Barranquilla. Ubicado a pasos de las principales atracciones de la ciudad, este hogar cuenta con dos c\u00f3modas habitaciones y dos ba\u00f1os modernos, as\u00ed como dos espaciosos parqueaderos. Con una distribuci\u00f3n funcional y acabados de calidad, este apartamento ofrece el equilibrio perfecto entre confort y conveniencia. Descubre un entorno tranquilo y lleno de encanto en este maravilloso espacio que te invita a llamarlo hogar. contrato minimo a 6 meses dentro del canon esta incluida la admon",
+  "featured": [
+    "area:84",
+    " areaConstruida:84",
+    " ascensor:S",
+    " cercaAGimnasio:S",
+    " cercaAJardinesYColegios:S",
+    " cercaARestaurantes:S",
+    " cercaATiendasDeBarrio:S",
+    " conCircuitoCerradoTV:S",
+    " conGarajeCubierto:S",
+    " conMuebles:S",
+    " conSalonComunal:S",
+    " conVistaPanoramica:S",
+    " conZonaLavanderia:S",
+    " contactoWhatsApp:S",
+    " enConjuntoCerrado:S",
+    " extractor:S",
+    " horno:S",
+    " instalacionGas:Propano",
+    " negociarPrecio:S",
+    " nroApto:0",
+    " nroAscensores:2",
+    " nroBanos:1",
+    " nroClosets:2",
+    " nroCuartos:2",
+    " nroGarajes:2",
+    " nroPiso:6",
+    " tiempoConstruido:Entre 10 y 20 a\u00f1os",
+    " tipoCocinaLista:Lineal",
+    " tipoComedor:Sala Comedor",
+    " tipoDeposito:0",
+    " tipoEstufa:Gas",
+    " tipoGaraje:Propio",
+    " tipoPiso:Porcelanato",
+    " tipoVigilancia:24hrs"
+  ],
+  "categoria": "Tradicional",
+  "estrato": 4,
+  "geopoints": [
+    {
+      "address": "carrera 52 46-49",
+      "latitude": "10.99139",
+      "name": "Pescay\u00e9 Barrio Abajo",
+      "longitude": "-74.78435"
+    },
+    {
+      "address": "kr 53 # 48-04",
+      "latitude": "10.993009",
+      "name": "Parroquia Sagrado Corazon De Jesus",
+      "longitude": "-74.786194"
+    },
+    {
+      "address": "carrera 55 #48-81",
+      "latitude": "10.99379",
+      "name": "Mi Shop",
+      "longitude": "-74.78658"
+    },
+    {
+      "address": "carrera 54 49-09",
+      "latitude": "10.992951",
+      "name": "Sena - Industrias Creativas",
+      "longitude": "-74.787315"
+    },
+    {
+      "address": "kr 54 con cl 52-36 esq",
+      "latitude": "10.992888",
+      "name": "Teatro La Sala",
+      "longitude": "-74.78878"
+    },
+    {
+      "address": "v\u00eda 40 51-310",
+      "latitude": "10.993719",
+      "name": "Coolitoral - Nevada V\u00eda 40",
+      "longitude": "-74.779945"
+    }
+  ],
+  "distance": null,
+  "localizacion": {
+    "lon": -74.78433227539062,
+    "lat": 10.99246597290039
+  },
+  "OwnerType": "Inmobiliaria"
+}

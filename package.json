@@ -1,0 +1,12 @@
+{
+  "name": "tracker-arriendos-barranquilla",
+  "version": "1.0.0",
+  "description": "Buscador y Tracker Colaborativo de Apartamentos y Casas en Barranquilla",
+  "main": "web/app.js",
+  "scripts": {
+    "test": "node tests/test_adversarial_filtering.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}

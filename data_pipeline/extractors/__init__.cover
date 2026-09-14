@@ -1,0 +1,8 @@
+    1: """
+       Extractors module for real estate portals.
+       """
+       
+    1: from .metrocuadrado import MetrocuadradoExtractor
+    1: from .fincaraiz import FincaRaizExtractor
+       
+    1: __all__ = ["MetrocuadradoExtractor", "FincaRaizExtractor"]

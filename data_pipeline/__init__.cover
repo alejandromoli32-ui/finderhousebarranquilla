@@ -1,0 +1,5 @@
+    1: """
+       data_pipeline package for Barranquilla Rental Tracker.
+       """
+       
+    1: __version__ = "1.0.0"

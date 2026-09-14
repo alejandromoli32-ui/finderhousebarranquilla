@@ -1,0 +1,41 @@
+{
+  "position": 1,
+  "@type": "ListItem",
+  "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-o-venta-en-solaire-barranquilla-3873796",
+  "@id": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-o-venta-en-solaire-barranquilla-3873796",
+  "item": {
+    "@type": "Product",
+    "name": "Apartamento en arriendo o venta en Cr 67 # 84 203 Apto 3C piso 3, SOLAIRE, Barranquilla - C\u00f3d. 281036-10400565",
+    "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-o-venta-en-solaire-barranquilla-3873796",
+    "image": "https://www-img-cc.s3.amazonaws.com/inmuebles/images/3873796/aadeb__178916093362_plana.jpeg",
+    "offers": {
+      "@type": "Offer",
+      "price": "320000000",
+      "priceCurrency": "COP",
+      "availability": "https://schema.org/InStock",
+      "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-o-venta-en-solaire-barranquilla-3873796",
+      "itemOffered": {
+        "@type": "Apartment",
+        "numberOfBathroomsTotal": "3",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": {
+            "@type": "Country",
+            "name": "co"
+          }
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 11.014037,
+          "longitude": -74.810538
+        },
+        "floorSize": {
+          "@type": "QuantitativeValue",
+          "value": "116",
+          "unitCode": "MTK"
+        },
+        "image": "https://www-img-cc.s3.amazonaws.com/inmuebles/images/3873796/aadeb__178916093362_plana.jpeg"
+      }
+    }
+  }
+}

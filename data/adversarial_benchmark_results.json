@@ -1,0 +1,104 @@
+{
+  "concurrency": {
+    "threads": 20,
+    "total_requests": 100,
+    "duration_seconds": 1.773,
+    "errors": [],
+    "total_keys_expected": 100,
+    "total_keys_persisted": 100,
+    "missing_keys_count": 0,
+    "passed": true
+  },
+  "malformed_payloads": {
+    "invalid_json_syntax": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Invalid JSON in request body\", \"code\": 400}"
+    },
+    "invalid_json_unquoted": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Invalid JSON in request body\", \"code\": 400}"
+    },
+    "invalid_json_nan": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Payload must be a JSON object\", \"code\": 400}"
+    },
+    "non_dict_int": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Payload must be a JSON object\", \"code\": 400}"
+    },
+    "non_dict_string": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Payload must be a JSON object\", \"code\": 400}"
+    },
+    "non_dict_array": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Payload must be a JSON object\", \"code\": 400}"
+    },
+    "non_dict_bool": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Payload must be a JSON object\", \"code\": 400}"
+    },
+    "non_dict_null": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Payload must be a JSON object\", \"code\": 400}"
+    },
+    "invalid_utf8_ff": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Invalid UTF-8 payload\", \"code\": 400}"
+    },
+    "invalid_utf8_80": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Invalid UTF-8 payload\", \"code\": 400}"
+    },
+    "empty_payload": {
+      "status_code": 400,
+      "expected_status": 400,
+      "server_alive": true,
+      "passed": true,
+      "response_snippet": "{\"error\": \"Empty payload\", \"code\": 400}"
+    }
+  },
+  "port_contention": {
+    "standard_socket_port_8000": {
+      "requested_port": 8000,
+      "actual_bound_port": 8001,
+      "fallback_successful": true
+    },
+    "two_instances_reusable_server": {
+      "server1_port": 8000,
+      "server2_port": 8001,
+      "conflict_detected": true,
+      "explanation": "On Windows, allow_reuse_address=True permits socket hijacking/port collision instead of raising WSAEADDRINUSE"
+    }
+  }
+}

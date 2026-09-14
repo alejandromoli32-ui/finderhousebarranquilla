@@ -1,0 +1,21 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Redirigir la raiz directamente al buscador interactivo
+[[redirects]]
+  from = "/"
+  to = "/web/index.html"
+  status = 200
+
+# Redirigir la API de inmuebles al JSON estatico del catalogo
+[[redirects]]
+  from = "/api/properties"
+  to = "/data/inmuebles_barranquilla.json"
+  status = 200
+
+# Redirigir el endpoint de tracking compartido a la serverless function
+[[redirects]]
+  from = "/api/tracking"
+  to = "/.netlify/functions/tracking"
+  status = 200

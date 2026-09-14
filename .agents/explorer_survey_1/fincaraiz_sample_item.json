@@ -1,0 +1,649 @@
+{
+  "id": 194249769,
+  "idFincaLegacy": null,
+  "title": "Apartamento en Arriendo en La campi\u00f1a, Barranquilla",
+  "typeID": 2,
+  "address": "Cra. 47 #85-53, Riomar, Barranquilla, Atl\u00e1ntico",
+  "showAddress": true,
+  "country_id": 3,
+  "description": "APARTAMENTO EN ARRIENDO \u00bb LA CAMPI\u00d1A \u00bb SOHO 85\n\nINFO: ***\n\nEste hermoso apartamento para alquiler se encuentra en una de las zonas m\u00e1s prestigiosas de la ciudad de Barranquilla, en el departamento de Atl\u00e1ntico. Con una ubicaci\u00f3n privilegiada y de f\u00e1cil acceso, este inmueble cuenta con una amplia \u00e1rea privada de 41 M2 que brinda comodidad y confort a sus habitantes.\n\nEl apartamento dispone de un dormitorio perfectamente distribuido y equipado con armarios empotrados, asegurando as\u00ed un \u00f3ptimo aprovechamiento del espacio. Adem\u00e1s, cuenta con un ba\u00f1o completo y moderno, perfecto para relajarse despu\u00e9s de un largo d\u00eda de trabajo.\n\nUna de las ventajas m\u00e1s destacadas de este apartamento es la posibilidad de vivir con tu mascota, ya que el inmueble permite la presencia de animales dom\u00e9sticos para que t\u00fa y tu compa\u00f1ero fiel disfruten juntos del hogar. Adem\u00e1s, ofrece servicios de agua y gas domiciliario para una experiencia de vida m\u00e1s c\u00f3moda y eficiente.\n\nSu hermoso balc\u00f3n te permitir\u00e1 disfrutar de una vista panor\u00e1mica espectacular de la ciudad mientras te relajas o compartes tiempo con tus seres queridos. La barra estilo americano, la cocina integral y el suelo de cer\u00e1mica o m\u00e1rmol le dan al apartamento un toque de modernidad y elegancia.\n\nCon doble ventana y aire acondicionado, tendr\u00e1s la temperatura ideal en cualquier \u00e9poca del a\u00f1o. La propiedad tambi\u00e9n cuenta con extractor para eliminar la humedad y mantener un ambiente fresco y agradable.\n\nRode",
+  "code": "194249769",
+  "code2": "10404168",
+  "finances": false,
+  "grouped_ids": null,
+  "img": "https://cdn2.infocasas.com.uy/repo/img/6aa660388465a_infocdn__gr28643120260913012303jpeg.jpeg",
+  "isMapFeatured": false,
+  "price": {
+    "amount": 2800000,
+    "admin_included": 2800000,
+    "hidePrice": false,
+    "currency": {
+      "id": 4,
+      "name": "$",
+      "rate": 3087.66
+    }
+  },
+  "price_amount_usd": 907,
+  "price_admin_usd": 907,
+  "owner": {
+    "id": 177060797,
+    "name": "INMOBILIARIOS OLANO Y CIA. LTDA",
+    "masked_phone": "+5730",
+    "whatsapp_phone": null,
+    "has_whatsapp": true,
+    "active": true,
+    "logo": "https://cdn1.infocasas.com.uy/repo/img/6a4e901438599_whatsapp-image-2026-07-06-at-2.36.16-pm-(1).jpeg",
+    "inmoLink": null,
+    "inmoPropsLink": "/inmobiliarias/177060797-inmobiliarios olano y cia. ltda/propiedades",
+    "inmofull": false,
+    "type": "inmobiliaria",
+    "particular": false,
+    "heavy": 0,
+    "address": "",
+    "subsidiaries": [
+      {
+        "id": 1086622,
+        "name": "Casa central",
+        "masked_phone": "+5730",
+        "address": "",
+        "office_hours": ""
+      }
+    ]
+  },
+  "locations": {
+    "location_point": "POINT (-74.821105599403 11.0028108135)",
+    "location_main": {
+      "id": "11fea8e2-61e6-4b7e-ab45-fc768ed64f7f",
+      "name": "La campi\u00f1a",
+      "slug": [
+        "neighbourhood-colombia-08-001-000126"
+      ],
+      "location_type": "neighbourhood"
+    },
+    "country": [
+      {
+        "id": "858656c1-bbb1-4b0d-b569-f61bbdebc8f0",
+        "name": "Colombia",
+        "slug": [
+          "country-48-colombia"
+        ]
+      }
+    ],
+    "state": [
+      {
+        "id": "2eb97bf5-0c58-47be-b056-cd9e600b4ff7",
+        "name": "Atlantico",
+        "slug": [
+          "state-colombia-08-atlantico"
+        ],
+        "indicative": null
+      }
+    ],
+    "city": [
+      {
+        "id": "353f6a09-795f-4619-84e6-48cec5979268",
+        "name": "Barranquilla",
+        "slug": [
+          "city-colombia-08-001"
+        ]
+      }
+    ],
+    "locality": [
+      {
+        "id": "3472388b-14e2-49d4-9c81-3a5ab87acc9d",
+        "name": "Riomar",
+        "slug": [
+          "locality-colombia-barranquilla-001-08-01"
+        ]
+      },
+      {
+        "id": "d74262ce-0574-4eda-b0b7-312c19db8c85",
+        "name": "Norte centro - historico",
+        "slug": [
+          "locality-colombia-barranquilla-001-08-02"
+        ]
+      }
+    ],
+    "commune": [
+      {
+        "id": "fe590a17-da94-43b3-a57c-96e814092b68",
+        "name": "Comuna 19",
+        "slug": [
+          "commune-colombia-barranquilla-001-08-19"
+        ]
+      }
+    ],
+    "zone": [
+      {
+        "id": "b0f7dcf3-f01a-41d1-8659-6c398d567ef1",
+        "name": "Riomar",
+        "slug": [
+          "zone-colombia-barranquilla-riomar"
+        ]
+      },
+      {
+        "id": "a8986450-4875-4e54-b870-762f691cf4f7",
+        "name": "Norte centro historico",
+        "slug": [
+          "zone-colombia-barranquilla-norte-centro-historico"
+        ]
+      }
+    ],
+    "region": [],
+    "neighbourhood": [
+      {
+        "id": "7a9b8e83-056d-42c4-a6b8-a4ecf1a143cf",
+        "name": "Granadillo",
+        "slug": [
+          "neighbourhood-colombia-08-001-000124"
+        ]
+      },
+      {
+        "id": "7ca94431-2175-4a24-af7f-c83f49f0929d",
+        "name": "San vicente",
+        "slug": [
+          "neighbourhood-colombia-08-001-000138"
+        ]
+      },
+      {
+        "id": "11fea8e2-61e6-4b7e-ab45-fc768ed64f7f",
+        "name": "La campi\u00f1a",
+        "slug": [
+          "neighbourhood-colombia-08-001-000126"
+        ]
+      }
+    ]
+  },
+  "seller": null,
+  "technicalSheet": [
+    {
+      "field": "property_type_name",
+      "value": "Apartamento",
+      "text": "Tipo de Inmueble"
+    },
+    {
+      "field": "construction_state_name",
+      "value": "Usado",
+      "text": "Estado"
+    },
+    {
+      "field": "bathrooms",
+      "value": "1",
+      "text": "Ba\u00f1os"
+    },
+    {
+      "field": "constructionYear",
+      "value": "1 a 8 a\u00f1os",
+      "text": "Antig\u00fcedad"
+    },
+    {
+      "field": "bedrooms",
+      "value": "1",
+      "text": "Habitaciones"
+    },
+    {
+      "field": "garage",
+      "value": "1",
+      "text": "Parqueaderos"
+    },
+    {
+      "field": "m2Built",
+      "value": "41 m2",
+      "text": "\u00c1rea Construida"
+    },
+    {
+      "field": "m2apto",
+      "value": "41 m2",
+      "text": "\u00c1rea Privada"
+    },
+    {
+      "field": "stratum",
+      "value": "5",
+      "text": "Estrato"
+    },
+    {
+      "field": "commonExpenses",
+      "value": "",
+      "text": "Administraci\u00f3n"
+    },
+    {
+      "field": "floor",
+      "value": "3",
+      "text": "Piso N\u00b0"
+    },
+    {
+      "field": "story",
+      "value": "",
+      "text": "Cantidad de Pisos"
+    },
+    {
+      "field": "allowPets",
+      "value": "",
+      "text": "Acepta mascotas"
+    },
+    {
+      "field": "minimumContract",
+      "value": "",
+      "text": "Contrato M\u00ednimo"
+    }
+  ],
+  "image_count": 23,
+  "file_count": 0,
+  "imgSize": 495864,
+  "link": "/apartamento-en-arriendo-en-la-campi\u00f1a-barranquilla/194249769",
+  "property_type": {
+    "id": 2,
+    "name": "Apartamento"
+  },
+  "operation_type": {
+    "id": 2,
+    "name": "Arriendo"
+  },
+  "barter": false,
+  "facilities": [
+    {
+      "id": 4,
+      "name": "Calef\u00f3n",
+      "group": "Confort del apartamento"
+    },
+    {
+      "id": 12,
+      "name": "Losa Radiante",
+      "group": "Confort del apartamento"
+    },
+    {
+      "id": 13,
+      "name": "Parrillero / Barbacoa",
+      "group": "Confort del apartamento"
+    },
+    {
+      "id": 20,
+      "name": "Ascensor",
+      "group": "Confort del edificio"
+    },
+    {
+      "id": 32,
+      "name": "Agua Caliente Central",
+      "group": "Instalaciones apartamento"
+    },
+    {
+      "id": 233,
+      "name": "Acceso Pavimentado",
+      "group": "Exterior"
+    },
+    {
+      "id": 234,
+      "name": "Aire Acondicionado",
+      "group": "Interior"
+    },
+    {
+      "id": 252,
+      "name": "Barra estilo americano",
+      "group": "Interior"
+    },
+    {
+      "id": 256,
+      "name": "Ba\u00f1o Independiente",
+      "group": "Interior"
+    },
+    {
+      "id": 275,
+      "name": "Cerca de Zona Urbana",
+      "group": "Sector"
+    },
+    {
+      "id": 277,
+      "name": "Circuito cerrado de TV",
+      "group": "Exterior"
+    },
+    {
+      "id": 279,
+      "name": "Cit\u00f3fono",
+      "group": "Interior"
+    },
+    {
+      "id": 280,
+      "name": "Closet",
+      "group": "Interior"
+    },
+    {
+      "id": 287,
+      "name": "Colegios / Universidades",
+      "group": "Sector"
+    },
+    {
+      "id": 345,
+      "name": "Garaje(s)",
+      "group": "Exterior"
+    },
+    {
+      "id": 346,
+      "name": "Gimnasio",
+      "group": "Exterior"
+    },
+    {
+      "id": 349,
+      "name": "Instalaci\u00f3n de gas",
+      "group": "Interior"
+    },
+    {
+      "id": 376,
+      "name": "Parqueadero Visitantes",
+      "group": "Exterior"
+    },
+    {
+      "id": 377,
+      "name": "Parques cercanos",
+      "group": "Sector"
+    },
+    {
+      "id": 391,
+      "name": "Porter\u00eda / Recepci\u00f3n",
+      "group": "Exterior"
+    },
+    {
+      "id": 403,
+      "name": "Sal\u00f3n Comunal",
+      "group": "Exterior"
+    },
+    {
+      "id": 424,
+      "name": "Supermercados / C.Comerciales",
+      "group": "Sector"
+    },
+    {
+      "id": 436,
+      "name": "Trans. P\u00fablico cercano",
+      "group": "Sector"
+    },
+    {
+      "id": 441,
+      "name": "Vigilancia",
+      "group": "Exterior"
+    },
+    {
+      "id": 444,
+      "name": "Vista panor\u00e1mica",
+      "group": "Exterior"
+    },
+    {
+      "id": 452,
+      "name": "Zona de lavander\u00eda",
+      "group": "Interior"
+    },
+    {
+      "id": 455,
+      "name": "Zona Residencial",
+      "group": "Sector"
+    }
+  ],
+  "m2": 41,
+  "m2Built": 41,
+  "m2apto": 41,
+  "m2Terrain": 41,
+  "m2Terrace": null,
+  "hectares": null,
+  "created_at": "2026-09-13",
+  "updated_at": "2026-09-13",
+  "latitude": 11.0028108135,
+  "longitude": -74.821105599403,
+  "images": [
+    {
+      "id": 312403076,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa660388465a_infocdn__gr28643120260913012303jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403077,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603970165_infocdn__gr286431120260913012321jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403078,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603a1cfdc_infocdn__gr28643920260913012319jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403079,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603ab64c0_infocdn__gr28643320260913012315jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403080,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603b6d80c_infocdn__gr286431220260913012322jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403081,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603c25f2c_infocdn__gr286431520260913012323jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403082,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603cc5ab6_infocdn__gr286431920260913012326jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403083,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603d730a4_infocdn__gr286432220260913012327jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403084,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603e15b91_infocdn__gr28643220260913012315jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403085,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603ec31cb_infocdn__gr28643420260913012316jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403086,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6603f72491_infocdn__gr28643620260913012317jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403087,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6604001ab0_infocdn__gr28643520260913012317jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403088,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6604099cb4_infocdn__gr28643720260913012318jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403089,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6604138413_infocdn__gr28643820260913012319jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403090,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa66041dc733_infocdn__gr286431020260913012320jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403091,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa6604287e2d_infocdn__gr286431420260913012323jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403092,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa660433e318_infocdn__gr286431820260913012325jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403093,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa66043d0615_infocdn__gr286431320260913012322jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403094,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa660447afdc_infocdn__gr286431620260913012324jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403095,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa660453b433_infocdn__gr286431720260913012324jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403096,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa66045ed322_infocdn__gr286432020260913012326jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403097,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa66046a0ef0_infocdn__gr286432120260913012327jpeg.jpeg",
+      "tag": null
+    },
+    {
+      "id": 312403098,
+      "image": "https://cdn2.infocasas.com.uy/repo/img/6aa660475a01e_infocdn__gr286432320260913012328jpeg.jpeg",
+      "tag": null
+    }
+  ],
+  "files": [],
+  "source": null,
+  "color": 3,
+  "project_group_md5": "property_194249769",
+  "project": [],
+  "pausd": false,
+  "pointType": false,
+  "zoom": 15,
+  "youtube": "",
+  "highlight": 17,
+  "hide_pct": 0,
+  "active": true,
+  "deleted": false,
+  "relevance": 93,
+  "antiquity": 2,
+  "construction_year": null,
+  "notes": "",
+  "sold": false,
+  "soldDate": null,
+  "discount": null,
+  "draft": false,
+  "sign": null,
+  "guarantee": null,
+  "facilitiesNotApply": false,
+  "commonExpenses": {
+    "amount": 0,
+    "hidePrice": false,
+    "currency": {
+      "id": 4,
+      "name": "$"
+    }
+  },
+  "price_variation": {},
+  "ceCurrencyID": 4,
+  "highlightDate": "2026-09-13",
+  "socialMediaLinks": [
+    {
+      "slug": "facebook",
+      "name": "facebook",
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-campi\u00f1a-barranquilla/194249769",
+      "icon": "icon-facebook-1",
+      "order": null
+    },
+    {
+      "slug": "linkedin",
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-campi\u00f1a-barranquilla/194249769",
+      "icon": "icon-linkedin",
+      "order": null
+    },
+    {
+      "slug": "twitter",
+      "name": "twitter",
+      "url": "https://twitter.com/intent/tweet?url=https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-campi\u00f1a-barranquilla/194249769",
+      "icon": "icon-twitter",
+      "order": null
+    },
+    {
+      "slug": "email",
+      "name": "email",
+      "url": "mailto:?subject=Propiedad Recomendada - InfoCasas&body=Link de la Propiedad: https://www.fincaraiz.com.co/apartamento-en-arriendo-en-la-campi\u00f1a-barranquilla/194249769",
+      "icon": "icon-mail",
+      "order": null
+    }
+  ],
+  "garage": 1,
+  "office": false,
+  "dispositionID": 1,
+  "bathrooms": 1,
+  "rooms": 1,
+  "seaview": false,
+  "livingPlace": false,
+  "condominium": false,
+  "frontLength": null,
+  "floorsCount": 0,
+  "apartmentsPerFloor": 0,
+  "floor": 3,
+  "neighborhood_id": 0,
+  "estate_id": 0,
+  "farmhouse": false,
+  "allowedHeight": "",
+  "isFavorite": false,
+  "isExternal": false,
+  "guests": null,
+  "seasons": [],
+  "price_season": {},
+  "occupancies": [],
+  "temporal_price": null,
+  "temporal_currency": {},
+  "seaDistanceName": null,
+  "tour3d": null,
+  "legacy_propID": 194249769,
+  "isProject": false,
+  "isProjectUnit": false,
+  "operation_type_id": 2,
+  "property_type_id": 2,
+  "currency": "$",
+  "currency_id": 4,
+  "hidePrice": false,
+  "stratum": 5,
+  "commonExpenses_currency": "$",
+  "constStatesID": 0,
+  "bedrooms": 1,
+  "event": {
+    "show": false,
+    "fecha_inicio_evento": null,
+    "link": null,
+    "logo": null,
+    "tag": null
+  },
+  "turbo_product": {
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-14",
+    "duration": 1,
+    "start_hour": "06:29:24",
+    "end_datetime": "2026-09-14T06:29:24+00:00"
+  },
+  "tag": {
+    "ad_id": null,
+    "tag_type": 3,
+    "tag_label": "Negociable",
+    "property_id": 194249769,
+    "project_id": null
+  },
+  "commercial_units": {},
+  "modify_score": 0,
+  "modify_score_client": 0,
+  "description_count": 1470,
+  "categories_count": 27,
+  "has_images": true,
+  "has_video": false,
+  "paid_quota": true,
+  "logo": null,
+  "include_administration": false,
+  "md5": 194249769,
+  "hasGarage": true,
+  "penthouse": false,
+  "idForm": null,
+  "finalization_date": null,
+  "fair": {},
+  "hasTour3d": false,
+  "duplicated": []
+}

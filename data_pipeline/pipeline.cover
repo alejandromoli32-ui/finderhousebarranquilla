@@ -1,0 +1,361 @@
+    1: """
+       data_pipeline/pipeline.py
+       Main ingestion controller, strict price ceiling enforcer, geography validator,
+       cross-portal deduplication runner, and atomic JSON/CSV serializer.
+       """
+       
+    1: import argparse
+    1: import csv
+    1: import json
+    1: import logging
+    1: import os
+    1: import sys
+    1: from typing import Any, Dict, List, Optional, Tuple
+       
+    1: from data_pipeline.deduplicator import deduplicate_listings, normalize_neighborhood
+       
+    2: logging.basicConfig(
+    1:     level=logging.INFO,
+    1:     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+       )
+    1: logger = logging.getLogger("DataPipeline")
+       
+       # Target neighborhoods allowed in Barranquilla Norte / Noroccidente
+    1: ALLOWED_BARRIOS = {
+           "el_golf", "alto_prado", "riomar", "villa_santos", "villa_country",
+           "miramar", "villa_carolina", "el_limoncito", "paraiso", "bellavista",
+           "buenavista", "ciudad_mallorquin", "la_campina", "tabor", "los_alpes",
+           "andalucia", "san_vicente", "la_cumbre", "ciudad_jardin", "granadillo",
+           "desconocido"  # checked via zone if unknown name
+       }
+       
+       
+    2: class PipelineController:
+    1:     """
+           Ingestion controller enforcing:
+           1. Canon + admin_fee <= 2.500.000 COP (Strict Invariant)
+           2. Barranquilla Norte / Noroccidente geography
+           3. Multi-portal deduplication & attribute merging
+           4. Atomic export to JSON and CSV (UTF-8 BOM for Windows Excel)
+           """
+       
+    1:     DEFAULT_PRICE_CEILING = 2500000
+       
+    6:     def __init__(
+               self,
+    2:         max_price: int = DEFAULT_PRICE_CEILING,
+    2:         offline: bool = False,
+    2:         portals: str = "all",
+    2:         output_json: str = "data/inmuebles_barranquilla.json",
+    2:         output_csv: str = "data/inmuebles_barranquilla.csv"
+           ):
+               self.max_price = max_price
+               self.offline = offline
+               self.portals = portals.lower().strip()
+               self.output_json = output_json
+               self.output_csv = output_csv
+               self.fallback_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fallback_data.json")
+       
+    1:     def load_fallback_dataset(self) -> List[Dict[str, Any]]:
+               """Loads offline dataset from fallback_data.json."""
+               if os.path.exists(self.fallback_path):
+                   try:
+                       with open(self.fallback_path, "r", encoding="utf-8") as f:
+                           data = json.load(f)
+                           logger.info(f"Loaded {len(data)} properties from fallback dataset: {self.fallback_path}")
+                           return data
+                   except Exception as e:
+                       logger.error(f"Error loading fallback dataset: {e}")
+               logger.warning(f"Fallback dataset not found at {self.fallback_path}")
+               return []
+       
+    1:     def fetch_raw_listings(self) -> List[Dict[str, Any]]:
+               """
+               Orchestrates extraction from Metrocuadrado and/or Finca Raíz.
+               Automatically falls back to local dataset if extraction returns 0 or offline mode is requested.
+               """
+               if self.offline:
+                   logger.info("Offline mode requested. Reading exclusively from fallback dataset...")
+                   return self.load_fallback_dataset()
+       
+               raw_listings: List[Dict[str, Any]] = []
+       
+               # 1. Metrocuadrado
+               if self.portals in ["all", "metrocuadrado", "metro"]:
+                   try:
+                       from data_pipeline.extractors.metrocuadrado import MetrocuadradoExtractor
+                       extractor = MetrocuadradoExtractor()
+                       items = extractor.extract_all(use_cache_on_failure=True)
+                       logger.info(f"Extracted {len(items)} listings from Metrocuadrado")
+                       raw_listings.extend(items)
+                   except Exception as e:
+                       logger.error(f"Error during Metrocuadrado extraction: {e}")
+       
+               # 2. Finca Raíz
+               if self.portals in ["all", "fincaraiz", "finca"]:
+                   try:
+                       from data_pipeline.extractors.fincaraiz import FincaRaizExtractor
+                       extractor = FincaRaizExtractor()
+                       items = extractor.extract_all(max_pages=1, use_cache_on_failure=True)
+                       logger.info(f"Extracted {len(items)} listings from Finca Raíz")
+                       raw_listings.extend(items)
+                   except Exception as e:
+                       logger.error(f"Error during Finca Raíz extraction: {e}")
+       
+               # Fallback if both produced 0 listings
+               if not raw_listings:
+                   logger.warning("Live extraction yielded 0 properties. Triggering fallback dataset...")
+                   raw_listings = self.load_fallback_dataset()
+       
+               return raw_listings
+       
+    1:     def validate_listing(self, prop: Dict[str, Any]) -> Tuple[bool, str]:
+               """
+               Strict validation gate:
+               - Price ceiling: canon + admin_fee <= self.max_price ($2.500.000 COP)
+               - Canon > 0 and admin_fee >= 0
+               - Arithmetic consistency: total_price == canon + admin_fee
+               - Barranquilla Norte / Noroccidente geography
+               - Schema completeness
+               - Valid and secure URL protocol
+               """
+               if not isinstance(prop, dict):
+                   return False, "Record is not a dictionary"
+       
+               # 1. ID and Title
+               if not prop.get("id"):
+                   return False, "Missing listing id"
+               if not prop.get("title"):
+                   return False, "Missing listing title"
+       
+               # 2. Financial validation
+               try:
+                   canon = int(prop.get("canon", 0) or 0)
+                   admin_fee = int(prop.get("admin_fee", 0) or 0)
+               except (ValueError, TypeError):
+                   return False, "Price fields must be numeric integers"
+       
+               if canon <= 0:
+                   return False, f"Canon must be positive: ${canon}"
+               if admin_fee < 0:
+                   return False, f"Admin fee cannot be negative: ${admin_fee}"
+       
+               total_price = canon + admin_fee
+               if total_price > self.max_price:
+                   return False, f"Total price ${total_price:,} COP exceeds budget ceiling ${self.max_price:,} COP"
+       
+               prop["canon"] = canon
+               prop["admin_fee"] = admin_fee
+               prop["total_price"] = total_price
+       
+               # 3. Geography validation
+               barrio = prop.get("neighborhood", "")
+               norm_barrio = normalize_neighborhood(barrio)
+               zone = str(prop.get("zone", "")).lower()
+       
+               is_allowed_barrio = norm_barrio in ALLOWED_BARRIOS
+               is_norte_zone = any(z in zone for z in ["norte", "noroccidente", "riomar", "historico"])
+       
+               if not (is_allowed_barrio or is_norte_zone):
+                   return False, f"Neighborhood '{barrio}' (zone '{zone}') is outside Barranquilla Norte target sector"
+       
+               # 4. URL security
+               url = str(prop.get("url", "")).strip()
+               if not (url.startswith("http://") or url.startswith("https://")):
+                   return False, f"Invalid or unsafe URL protocol: '{url}'"
+       
+               # 5. Numerical sanitization
+               try:
+                   prop["area_m2"] = float(prop.get("area_m2", 0) or 0.0)
+               except (ValueError, TypeError):
+                   prop["area_m2"] = 0.0
+       
+               try:
+                   prop["bedrooms"] = int(prop.get("bedrooms", 0) or 0)
+               except (ValueError, TypeError):
+                   prop["bedrooms"] = 1
+       
+               try:
+                   prop["bathrooms"] = int(prop.get("bathrooms", 0) or 0)
+               except (ValueError, TypeError):
+                   prop["bathrooms"] = 1
+       
+               try:
+                   prop["parking"] = int(prop.get("parking", 0) or 0)
+               except (ValueError, TypeError):
+                   prop["parking"] = 0
+       
+               try:
+                   prop["stratum"] = int(prop.get("stratum", 0) or 4)
+               except (ValueError, TypeError):
+                   prop["stratum"] = 4
+       
+               # 6. Ensure contact dictionary
+               if not isinstance(prop.get("contact"), dict):
+                   prop["contact"] = {
+                       "phone": "",
+                       "whatsapp": "",
+                       "agency": "Inmobiliaria",
+                       "agent_name": "Asesor Comercial"
+                   }
+       
+               # 7. Ensure images list
+               if not isinstance(prop.get("images"), list):
+                   prop["images"] = []
+       
+               return True, "Valid"
+       
+    1:     def export_json(self, listings: List[Dict[str, Any]]) -> None:
+               """Atomically serializes listings to standard JSON with UTF-8 encoding."""
+               os.makedirs(os.path.dirname(os.path.abspath(self.output_json)), exist_ok=True)
+               tmp_path = f"{self.output_json}.tmp"
+               with open(tmp_path, "w", encoding="utf-8") as f:
+                   json.dump(listings, f, indent=2, ensure_ascii=False)
+               os.replace(tmp_path, self.output_json)
+               logger.info(f"Atomically wrote {len(listings)} listings to {self.output_json}")
+       
+    1:     def export_csv(self, listings: List[Dict[str, Any]]) -> None:
+               """Atomically serializes listings to CSV with UTF-8 BOM (utf-8-sig) for Windows Excel."""
+               os.makedirs(os.path.dirname(os.path.abspath(self.output_csv)), exist_ok=True)
+               tmp_path = f"{self.output_csv}.tmp"
+       
+               fieldnames = [
+                   "id", "portal", "title", "property_type", "canon", "admin_fee",
+                   "total_price", "price_per_m2", "neighborhood", "zone", "address",
+                   "area_m2", "bedrooms", "bathrooms", "parking", "stratum", "url",
+                   "contact_phone", "contact_whatsapp", "contact_agency", "contact_agent_name",
+                   "images_count", "main_image", "verified", "description"
+               ]
+       
+               with open(tmp_path, "w", encoding="utf-8-sig", newline="") as f:
+                   writer = csv.DictWriter(f, fieldnames=fieldnames)
+                   writer.writeheader()
+                   for p in listings:
+                       contact = p.get("contact") or {}
+                       images = p.get("images") or []
+                       area = float(p.get("area_m2") or 0.0)
+                       total = int(p.get("total_price") or 0)
+                       price_m2 = int(round(total / area)) if area > 0 else 0
+       
+                       writer.writerow({
+                           "id": p.get("id", ""),
+                           "portal": p.get("portal", ""),
+                           "title": p.get("title", ""),
+                           "property_type": p.get("property_type", "Apartamento"),
+                           "canon": p.get("canon", 0),
+                           "admin_fee": p.get("admin_fee", 0),
+                           "total_price": total,
+                           "price_per_m2": price_m2,
+                           "neighborhood": p.get("neighborhood", ""),
+                           "zone": p.get("zone", ""),
+                           "address": p.get("address", ""),
+                           "area_m2": area,
+                           "bedrooms": p.get("bedrooms", 0),
+                           "bathrooms": p.get("bathrooms", 0),
+                           "parking": p.get("parking", 0),
+                           "stratum": p.get("stratum", 4),
+                           "url": p.get("url", ""),
+                           "contact_phone": contact.get("phone", ""),
+                           "contact_whatsapp": contact.get("whatsapp", ""),
+                           "contact_agency": contact.get("agency", ""),
+                           "contact_agent_name": contact.get("agent_name", ""),
+                           "images_count": len(images),
+                           "main_image": images[0] if images else "",
+                           "verified": p.get("verified", False),
+                           "description": (p.get("description") or "").replace("\n", " ")[:300]
+                       })
+               os.replace(tmp_path, self.output_csv)
+               logger.info(f"Atomically wrote {len(listings)} listings to {self.output_csv} with UTF-8 BOM")
+       
+    1:     def run(self) -> Dict[str, Any]:
+               """
+               Executes the entire ingestion pipeline:
+               1. Raw extraction / Ingestion
+               2. Strict validation & price ceiling gate
+               3. Cross-portal fuzzy deduplication & attribute merging
+               4. Sorting by total_price ASC (tie breaker: area_m2 DESC)
+               5. Atomic serialization to JSON and CSV
+               """
+               logger.info("=== Starting Barranquilla Rental Data Pipeline ===")
+               raw_items = self.fetch_raw_listings()
+               logger.info(f"Total raw listings fetched: {len(raw_items)}")
+       
+               valid_items = []
+               rejected_ceiling = 0
+               rejected_geo = 0
+               rejected_schema = 0
+       
+               for prop in raw_items:
+                   is_valid, reason = self.validate_listing(prop)
+                   if is_valid:
+                       valid_items.append(prop)
+                   else:
+                       if "exceeds budget ceiling" in reason:
+                           rejected_ceiling += 1
+                       elif "outside Barranquilla Norte" in reason:
+                           rejected_geo += 1
+                       else:
+                           rejected_schema += 1
+                       logger.debug(f"Rejected listing {prop.get('id')}: {reason}")
+       
+               logger.info(
+                   f"Validation results: {len(valid_items)} passed, "
+                   f"{rejected_ceiling} rejected (> $2.5M COP), "
+                   f"{rejected_geo} rejected (outside Norte), "
+                   f"{rejected_schema} rejected (schema/url)"
+               )
+       
+               # Cross-portal deduplication
+               deduped_items, dedup_stats = deduplicate_listings(valid_items)
+               logger.info(
+                   f"Deduplication results: {dedup_stats['merged_duplicates']} cross-portal duplicates merged. "
+                   f"Unique inventory: {len(deduped_items)}"
+               )
+       
+               # Sort by total_price ascending, then area descending
+               deduped_items.sort(key=lambda x: (x.get("total_price", 0), -float(x.get("area_m2", 0) or 0.0)))
+       
+               # Export
+               self.export_json(deduped_items)
+               self.export_csv(deduped_items)
+       
+               metrics = {
+                   "raw_count": len(raw_items),
+                   "valid_count": len(valid_items),
+                   "rejected_ceiling": rejected_ceiling,
+                   "rejected_geo": rejected_geo,
+                   "rejected_schema": rejected_schema,
+                   "duplicates_merged": dedup_stats["merged_duplicates"],
+                   "final_count": len(deduped_items)
+               }
+       
+               logger.info("=== Pipeline Execution Complete ===")
+               logger.info(f"Final verified inventory: {len(deduped_items)} properties <= $2.500.000 COP")
+               return metrics
+       
+       
+    1: def main():
+           parser = argparse.ArgumentParser(description="Barranquilla Rental Ingestion Pipeline")
+           parser.add_argument("--offline", action="store_true", help="Bypass live web requests and run from fallback data")
+           parser.add_argument("--portals", type=str, default="all", help="Portals to extract ('all', 'metrocuadrado', 'fincaraiz')")
+           parser.add_argument("--max-price", type=int, default=2500000, help="Maximum price ceiling (canon + admin)")
+           parser.add_argument("--output-json", type=str, default="data/inmuebles_barranquilla.json", help="Path to JSON output")
+           parser.add_argument("--output-csv", type=str, default="data/inmuebles_barranquilla.csv", help="Path to CSV output")
+           parser.add_argument("--verbose", action="store_true", help="Enable verbose debug logging")
+       
+           args = parser.parse_args()
+           if args.verbose:
+               logging.getLogger().setLevel(logging.DEBUG)
+       
+           controller = PipelineController(
+               max_price=args.max_price,
+               offline=args.offline,
+               portals=args.portals,
+               output_json=args.output_json,
+               output_csv=args.output_csv
+           )
+           controller.run()
+       
+       
+    1: if __name__ == "__main__":
+           main()
