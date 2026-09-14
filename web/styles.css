@@ -432,6 +432,43 @@ a:hover {
   align-items: end;
 }
 
+/* Mobile Collapsible Filters Toggle */
+.mobile-filter-toggle-btn {
+  display: none;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background-color: var(--slate-100);
+  border: 1px solid var(--slate-300);
+  border-radius: var(--radius-md);
+  color: var(--slate-800);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  touch-action: manipulation;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  transition: all var(--transition-fast);
+}
+
+.mobile-filter-toggle-btn:hover,
+.mobile-filter-toggle-btn.active {
+  background-color: var(--slate-200);
+  border-color: var(--teal-600);
+  color: var(--teal-700);
+}
+
+.mobile-filter-toggle-btn .filter-toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mobile-filter-toggle-btn .filter-toggle-chevron {
+  font-size: 0.75rem;
+  transition: transform var(--transition-fast);
+}
+
 .filter-group {
   display: flex;
   flex-direction: column;
@@ -1582,35 +1619,167 @@ a:hover {
 }
 
 @media (max-width: 640px) {
-  .app-header {
-    padding: 1rem;
+  /* Ergonomía táctil y supresión de delay 300ms (Apple HIG / Material 3) */
+  button, input, select, textarea, a, .tab-btn, .segment-btn, .barrio-pill {
+    touch-action: manipulation;
   }
+
+  .btn, .tab-btn, .segment-btn, .card-action-btn {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Evitar auto-zoom forzado en iOS Safari */
+  #searchInput, .form-select, .form-input, .form-textarea {
+    font-size: 16px !important;
+  }
+
+  .app-header {
+    padding: 0.85rem 1rem;
+    padding-top: max(0.85rem, env(safe-area-inset-top));
+  }
+
   .filters-section {
     padding: 0.75rem 1rem;
   }
+
   .main-container {
-    padding: 1rem;
+    padding: 0.85rem 1rem 4rem;
+    padding-bottom: max(4rem, env(safe-area-inset-bottom));
   }
+
   .brand-title {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
+
+  .search-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .search-input-wrapper {
+    width: 100%;
+  }
+
+  .search-quick-actions {
+    width: 100%;
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .search-quick-actions .quick-filter-btn {
+    flex: 1;
+    min-height: 42px;
+  }
+
+  #resetFiltersBtn {
+    width: 100%;
+    min-height: 40px;
+  }
+
+  /* Acordeón de filtros para celular */
+  .mobile-filter-toggle-btn {
+    display: flex;
+  }
+
   .faceted-grid {
+    display: none;
     grid-template-columns: 1fr;
+    gap: 0.85rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--slate-300);
+    margin-top: 0.75rem;
   }
+
+  .faceted-grid.mobile-expanded {
+    display: grid;
+    animation: toastSlideIn 0.2s ease-out;
+  }
+
+  /* Desplazamiento horizontal fluido en carrusel de píldoras y pestañas */
+  .barrio-pills-row, .status-tabs {
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.4rem;
+  }
+
+  .barrio-pills-row::-webkit-scrollbar,
+  .status-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .barrio-pill, .tab-btn {
+    scroll-snap-align: start;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
   .property-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
+
   .price-table, .modal-specs-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .status-tabs-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    gap: 0.75rem;
   }
+
+  .results-meta {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.82rem;
+  }
+
   .card-actions-grid {
     grid-template-columns: 1fr;
+    gap: 0.4rem;
   }
+
   .card-actions-subrow {
     grid-column: span 1;
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .card-actions-subrow .card-action-btn {
+    flex: 1;
+    min-height: 44px;
+  }
+
+  .btn-whatsapp-direct {
+    min-height: 46px;
+    font-size: 0.92rem;
+  }
+
+  /* Modal optimizado para pantallas móviles (Bottom Sheet) */
+  .modal-overlay {
+    min-height: 100dvh;
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .modal-card {
+    max-height: 92dvh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: var(--radius-xl);
+    border-top-right-radius: var(--radius-xl);
+    padding: 1.25rem 1rem;
+    padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+  }
+
+  .modal-hero-img {
+    height: 220px;
+    border-radius: var(--radius-md);
   }
 }

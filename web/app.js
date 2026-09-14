@@ -91,6 +91,7 @@
     propertyGrid: document.getElementById('propertyGrid'),
     emptyState: document.getElementById('emptyState'),
     emptyResetBtn: document.getElementById('emptyResetBtn'),
+    mobileFilterToggleBtn: document.getElementById('mobileFilterToggleBtn'),
 
     // Stats
     statTotalCount: document.getElementById('statTotalCount'),
@@ -1260,6 +1261,20 @@
         }
         syncStatusControls();
         applyFilters();
+      });
+    }
+
+    // Mobile Filter Toggle Button
+    if (el.mobileFilterToggleBtn) {
+      el.mobileFilterToggleBtn.addEventListener('click', () => {
+        const grid = document.querySelector('.faceted-grid');
+        if (grid) {
+          const isExpanded = grid.classList.toggle('mobile-expanded');
+          el.mobileFilterToggleBtn.classList.toggle('active', isExpanded);
+          el.mobileFilterToggleBtn.setAttribute('aria-expanded', String(isExpanded));
+          const chevron = el.mobileFilterToggleBtn.querySelector('.filter-toggle-chevron');
+          if (chevron) chevron.textContent = isExpanded ? '▲' : '▼';
+        }
       });
     }
 

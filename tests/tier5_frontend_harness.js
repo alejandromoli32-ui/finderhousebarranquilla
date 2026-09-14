@@ -249,7 +249,8 @@ function buildTestEnvironment(customProps = null, customTracking = null, serverO
     'cancelStatusBtn', 'statusModalSubtitle', 'trackingForm', 'visitDateGroup', 'visitDateInput',
     'starRatingControl', 'starRatingLabel', 'trackingNotesInput', 'exportJsonBtn', 'exportCsvBtn',
     'toastContainer', 'manualStatusControl', 'quickFavFilterBtn', 'quickDiscardFilterBtn',
-    'quickFavCount', 'quickDiscardCount', 'modalToggleFavBtn', 'modalToggleDiscardBtn', 'stratumControl'
+    'quickFavCount', 'quickDiscardCount', 'modalToggleFavBtn', 'modalToggleDiscardBtn', 'stratumControl',
+    'mobileFilterToggleBtn'
   ];
 
   ids.forEach(id => {

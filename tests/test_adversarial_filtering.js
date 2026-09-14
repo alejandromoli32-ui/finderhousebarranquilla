@@ -216,7 +216,8 @@ function createEnvironment(customProperties = null, customTracking = null) {
     'statusModal', 'closeStatusModalBtn', 'cancelStatusBtn', 'statusModalSubtitle', 'trackingForm',
     'visitDateGroup', 'visitDateInput', 'starRatingControl', 'starRatingLabel', 'trackingNotesInput',
     'exportJsonBtn', 'exportCsvBtn', 'toastContainer', 'manualStatusControl', 'quickFavFilterBtn',
-    'quickDiscardFilterBtn', 'quickFavCount', 'quickDiscardCount', 'modalToggleFavBtn', 'modalToggleDiscardBtn', 'stratumControl'
+    'quickDiscardFilterBtn', 'quickFavCount', 'quickDiscardCount', 'modalToggleFavBtn', 'modalToggleDiscardBtn', 'stratumControl',
+    'mobileFilterToggleBtn'
   ];
 
   elementIds.forEach(id => {
