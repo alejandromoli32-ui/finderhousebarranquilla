@@ -15,7 +15,8 @@ exports.handler = async (event, context) => {
     "Content-Type": "application/json",
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type"
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate"
   };
 
   if (event.httpMethod === "OPTIONS") {
@@ -28,11 +29,11 @@ exports.handler = async (event, context) => {
       connectLambda(event);
     }
 
-    const store = getStore("barranquilla_rentals");
+    const store = getStore({ name: "barranquilla_rentals", consistency: "strong" });
 
-    // 1. GET Request: Read shared state
+    // 1. GET Request: Read shared state with strong consistency
     if (event.httpMethod === "GET") {
-      let state = await store.get("tracking", { type: "json" });
+      let state = await store.get("tracking", { type: "json", consistency: "strong" });
       if (!state || typeof state !== "object" || Array.isArray(state)) {
         state = DEFAULT_STATE;
       }
@@ -46,7 +47,7 @@ exports.handler = async (event, context) => {
     // 2. POST Request: Merge and persist shared state
     if (event.httpMethod === "POST") {
       const body = JSON.parse(event.body || "{}");
-      let current = await store.get("tracking", { type: "json" });
+      let current = await store.get("tracking", { type: "json", consistency: "strong" });
       if (!current || typeof current !== "object" || Array.isArray(current) || !current.properties) {
         current = JSON.parse(JSON.stringify(DEFAULT_STATE));
       }
