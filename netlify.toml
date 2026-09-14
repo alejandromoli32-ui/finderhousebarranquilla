@@ -2,6 +2,22 @@
   publish = "."
   functions = "netlify/functions"
 
+# Redirigir los recursos del frontend cuando se accede desde la raiz (/)
+[[redirects]]
+  from = "/styles.css"
+  to = "/web/styles.css"
+  status = 200
+
+[[redirects]]
+  from = "/app.js"
+  to = "/web/app.js"
+  status = 200
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/web/assets/:splat"
+  status = 200
+
 # Redirigir la raiz directamente al buscador interactivo
 [[redirects]]
   from = "/"
