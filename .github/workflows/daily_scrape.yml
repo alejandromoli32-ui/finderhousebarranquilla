@@ -1,0 +1,42 @@
+name: Actualización Diaria de Arriendos Barranquilla
+
+on:
+  schedule:
+    # Se ejecuta todos los días a las 6:00 AM hora de Colombia (11:00 UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch: # Botón para ejecutar la búsqueda manual cuando quieras
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    name: Extraer arriendos y actualizar catálogo
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Ejecutar Pipeline de Extracción (Fincaraíz y Metrocuadrado)
+        run: |
+          python -m data_pipeline.pipeline
+          python dossier_generator.py
+
+      - name: Guardar y subir cambios a GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ DOSSIER_VISITAS.md
+          if git diff --staged --quiet; then
+            echo "No hay nuevos cambios en los inmuebles para hoy."
+          else
+            git commit -m "🤖 Auto-update diario: nuevos apartamentos en Barranquilla [skip ci]"
+            git push origin main
+            echo "Catálogo actualizado. Netlify se reconstruirá automáticamente."
+          fi
