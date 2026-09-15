@@ -36,3 +36,10 @@
   from = "/api/tracking"
   to = "/.netlify/functions/tracking"
   status = 200
+
+# Encabezados para evitar cache estatico del catalogo de inmuebles
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+

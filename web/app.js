@@ -397,9 +397,9 @@
 
     // 3. Load properties catalogue
     try {
-      let propRes = await fetch('/api/properties');
+      let propRes = await fetch('/api/properties', { cache: 'no-cache' });
       if (!propRes.ok) {
-        propRes = await fetch('/data/inmuebles_barranquilla.json');
+        propRes = await fetch('/data/inmuebles_barranquilla.json', { cache: 'no-cache' });
       }
       if (propRes.ok) {
         const list = await propRes.json();
@@ -413,7 +413,7 @@
 
     // 3b. Load curated dossier data if available
     try {
-      const dosRes = await fetch('/data/dossier_curado.json');
+      const dosRes = await fetch('/data/dossier_curado.json', { cache: 'no-cache' });
       if (dosRes.ok) {
         const dData = await dosRes.json();
         if (dData && Array.isArray(dData.property_ids) && dData.property_ids.length > 0) {
