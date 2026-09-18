@@ -36,7 +36,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No hay nuevos cambios en los inmuebles para hoy."
           else
-            git commit -m "🤖 Auto-update diario: nuevos apartamentos en Barranquilla [skip ci]"
+            git commit -m "🤖 Auto-update diario: nuevos apartamentos en Barranquilla"
             git push origin main
             echo "Catálogo actualizado. Netlify se reconstruirá automáticamente."
           fi
