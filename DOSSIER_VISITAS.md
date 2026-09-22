@@ -1,6 +1,6 @@
 # Dossier de Visitas Inmediatas — Apartamentos y Casas en Arriendo
 ## Selección Curada de Inmuebles en Barranquilla Norte (Presupuesto ≤ $2.500.000 COP)
-**Fecha de Emisión**: `2026-09-21` · **Inventario Evaluado**: `184 propiedades` · **Opciones Destacadas**: `15 inmuebles`
+**Fecha de Emisión**: `2026-09-22` · **Inventario Evaluado**: `179 propiedades` · **Opciones Destacadas**: `15 inmuebles`
 
 > 📌 **Propósito de este Dossier**: Proveer al arrendatario un catálogo ejecutivo de toma de decisiones rápidas, con las mejores oportunidades habitacionales del sector Norte de Barranquilla verificadas para agendar visitas físicas esta misma semana. Cada opción incluye desglose financiero riguroso (Canon + Administración), puntuación objetiva **MFVI (0-100)**, fotos y enlace directo de WhatsApp con mensaje estructurado para respuesta inmediata.
 
@@ -10,9 +10,9 @@
 
 El segmento de arriendos residenciales en **Barranquilla Norte** por debajo del tope de **$2.500.000 COP mensual total** concentra una alta demanda. A partir del análisis cuantitativo de los inmuebles activos en portales inmobiliarios líderes, se identifican las siguientes métricas del grupo seleccionado:
 
-- **Rango de Precios Totales**: Desde **$1.714.000** hasta **$2.500.000 COP**.
-- **Promedio Total Mensual**: **$2.135.147 COP** (Canon promedio: $1.811.694 | Administración promedio: $323.453).
-- **Costo Promedio por Metro Cuadrado**: **$21.584 COP/m²**.
+- **Rango de Precios Totales**: Desde **$1.790.000** hasta **$2.430.000 COP**.
+- **Promedio Total Mensual**: **$2.123.547 COP** (Canon promedio: $1.836.914 | Administración promedio: $286.633).
+- **Costo Promedio por Metro Cuadrado**: **$21.529 COP/m²**.
 - **Cobertura Geográfica**: Riomar, Altos de Riomar, Alto Prado, El Golf, Villa Santos, Villa Country, Miramar, Paraíso, Andalucía, San Vicente.
 - **Inmuebles con Parqueadero Privado**: **15 de 15 (100%)**.
 
@@ -21,9 +21,9 @@ El segmento de arriendos residenciales en **Barranquilla Norte** por debajo del 
 1. **🏆 Mejor Opción Ejecutiva (1-2 Alcobas en Zona Premium)**: 
    - **Apartamento en Arriendo, Altos De Riomar, Barranquilla** (Ref: `MQ-23769-M7006894` en **Altos de Riomar**). Total: **$2.430.000 COP** | Score MFVI: **90.5/100**. Ideal para profesionales o parejas que priorizan caminabilidad y estrato alto.
 2. **👨‍👩‍👧 Mejor Opción Familiar (3 Alcobas con Amplio Espacio)**: 
-   - **Apartamento en Arriendo en Villa country, Barranquilla** (Ref: `MERGED-9851-M6987317-194267220` en **Villa Country**). Total: **$2.400.000 COP** (125.0 m², 3 alcobas, 3 baños).
+   - **Apartamento en Arriendo en Villa country, Barranquilla** (Ref: `MERGED-16553-M6780197-194162065` en **Villa Country**). Total: **$2.200.000 COP** (125.0 m², 3 alcobas, 3 baños).
 3. **💎 Mayor Eficiencia de Espacio por Peso ($/m²)**: 
-   - **Apartamento en Arriendo, San Vicente, Barranquilla** (Ref: `MQ-671-M6901154` en **San Vicente**). A solo **$16.219/m²** (139.96 m² por $2.270.000 COP).
+   - **Apartamento en Arriendo, San Vicente, Barranquilla** (Ref: `MQ-710-M6427115` en **San Vicente**). A solo **$14.074/m²** (135.0 m² por $1.900.000 COP).
 
 ---
 
@@ -33,21 +33,21 @@ Matriz comparativa ordenada por el **Índice de Valor Multifactorial (MFVI)**. P
 
 | # | Ref ID | Barrio | Tipo | Área | Hab | Baños | Parq | Canon | Admin | Total Mes | $/m² | Score MFVI | Contacto Rápido |
 |:---:|:---:|:---|:---:|---:|:---:|:---:|:---:|---:|---:|---:|---:|:---:|:---:|
-| #1 | `MERGED-9851-M6987317-194267220` | Villa Country | Apto | 125.0 m² | 3 | 3 | 1 | $1.680.000 | $720.000 | **$2.400.000** | $19.200 | **95.5** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-9851-M6987317-194267220%29%20por%20%242.400.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #2 | `MQ-22682-M6921099` | Riomar | Apto | 100.0 m² | 3 | 2 | 1 | $1.800.000 | Incluida | **$1.800.000** | $18.000 | **94.5** | [📲 WhatsApp](https://wa.me/573178020627?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Riomar%20%28Ref%3A%20MQ-22682-M6921099%29%20por%20%241.800.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #3 | `MQ-671-M6825607` | Altos de Riomar | Apto | 108.0 m² | 3 | 3 | 1 | $1.567.700 | $532.300 | **$2.100.000** | $19.444 | **94.0** | [📲 WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MQ-671-M6825607%29%20por%20%242.100.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #4 | `MQ-9851-M6595771` | Altos de Riomar | Apto | 97.0 m² | 3 | 2 | 2 | $1.670.912 | $689.088 | **$2.360.000** | $24.330 | **94.0** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MQ-9851-M6595771%29%20por%20%242.360.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #5 | `MERGED-671-M6797858-194140121` | Altos de Riomar | Apto | 120.0 m² | 3 | 3 | 1 | $1.785.000 | $515.000 | **$2.300.000** | $19.167 | **93.0** | [📲 WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MERGED-671-M6797858-194140121%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #6 | `MERGED-16553-M6780197-194139995` | Villa Country | Apto | 121.0 m² | 3 | 3 | 1 | $2.200.000 | Incluida | **$2.200.000** | $18.182 | **91.0** | [📲 WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-16553-M6780197-194139995%29%20por%20%242.200.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #7 | `MERGED-9851-M5526250-191875732` | Villa Country | Apto | 105.0 m² | 3 | 2 | 1 | $1.970.000 | $530.000 | **$2.500.000** | $23.810 | **91.0** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-9851-M5526250-191875732%29%20por%20%242.500.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #8 | `MQ-23769-M7006552` | El Tabor | Apto | 113.0 m² | 3 | 2 | 1 | $1.350.000 | $650.000 | **$2.000.000** | $17.699 | **90.5** | [📲 WhatsApp](https://wa.me/573163344763?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20El%20Tabor%20%28Ref%3A%20MQ-23769-M7006552%29%20por%20%242.000.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #9 | `MQ-23769-M7006894` | Altos de Riomar | Apto | 95.0 m² | 2 | 2 | 2 | $2.430.000 | Incluida | **$2.430.000** | $25.579 | **90.5** | [📲 WhatsApp](https://wa.me/573163344763?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MQ-23769-M7006894%29%20por%20%242.430.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #10 | `MQ-671-M5946897` | San Vicente | Apto | 70.0 m² | 2 | 2 | 1 | $1.364.000 | $350.000 | **$1.714.000** | $24.486 | **89.5** | [📲 WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-671-M5946897%29%20por%20%241.714.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #11 | `MQ-23769-M7006602` | Villa Santos | Apto | 96.0 m² | 3 | 2 | 1 | $2.000.000 | Incluida | **$2.000.000** | $20.833 | **89.5** | [📲 WhatsApp](https://wa.me/573163344763?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Santos%20%28Ref%3A%20MQ-23769-M7006602%29%20por%20%242.000.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #12 | `MQ-16553-M6886725` | Villa Country | Apto | 98.0 m² | 2 | 2 | 1 | $2.300.000 | Incluida | **$2.300.000** | $23.469 | **89.0** | [📲 WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MQ-16553-M6886725%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #1 | `MERGED-16553-M6780197-194162065` | Villa Country | Apto | 125.0 m² | 3 | 3 | 1 | $1.620.000 | $580.000 | **$2.200.000** | $17.600 | **94.0** | [📲 WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-16553-M6780197-194162065%29%20por%20%242.200.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #2 | `MQ-9851-M6595771` | Altos de Riomar | Apto | 97.0 m² | 3 | 2 | 2 | $1.670.912 | $689.088 | **$2.360.000** | $24.330 | **94.0** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MQ-9851-M6595771%29%20por%20%242.360.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #3 | `MERGED-671-M6797858-191375736` | Altos de Riomar | Apto | 123.0 m² | 3 | 3 | 1 | $1.785.000 | $515.000 | **$2.300.000** | $18.699 | **93.0** | [📲 WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MERGED-671-M6797858-191375736%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #4 | `MERGED-16553-M6120612-194140114` | Villa Santos | Apto | 121.0 m² | 3 | 3 | 1 | $2.300.000 | Incluida | **$2.300.000** | $19.008 | **91.5** | [📲 WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Santos%20%28Ref%3A%20MERGED-16553-M6120612-194140114%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #5 | `MQ-MC6893700` | Alto de Riomar | Apto | 97.0 m² | 4 | 3 | 1 | $1.300.000 | $490.000 | **$1.790.000** | $18.454 | **91.0** | [📲 WhatsApp](https://wa.me/573232226052?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Alto%20de%20Riomar%20%28Ref%3A%20MQ-MC6893700%29%20por%20%241.790.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #6 | `MQ-9851-M5526250` | Villa Country | Apto | 105.0 m² | 3 | 2 | 1 | $1.820.000 | $530.000 | **$2.350.000** | $22.381 | **91.0** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MQ-9851-M5526250%29%20por%20%242.350.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #7 | `MQ-9851-M6921994` | El Tabor | Apto | 113.0 m² | 3 | 2 | 1 | $1.350.000 | $650.000 | **$2.000.000** | $17.699 | **90.5** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20El%20Tabor%20%28Ref%3A%20MQ-9851-M6921994%29%20por%20%242.000.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #8 | `MQ-23769-M7006894` | Altos de Riomar | Apto | 95.0 m² | 2 | 2 | 2 | $2.430.000 | Incluida | **$2.430.000** | $25.579 | **90.5** | [📲 WhatsApp](https://wa.me/573163344763?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MQ-23769-M7006894%29%20por%20%242.430.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #9 | `MQ-13957-M7066013` | San Vicente | Apto | 70.0 m² | 2 | 2 | 1 | $1.500.000 | $350.000 | **$1.850.000** | $26.429 | **89.5** | [📲 WhatsApp](https://wa.me/573102668256?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-13957-M7066013%29%20por%20%241.850.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #10 | `MQ-23769-M7006602` | Villa Santos | Apto | 96.0 m² | 3 | 2 | 1 | $2.000.000 | Incluida | **$2.000.000** | $20.833 | **89.5** | [📲 WhatsApp](https://wa.me/573163344763?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Santos%20%28Ref%3A%20MQ-23769-M7006602%29%20por%20%242.000.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #11 | `MQ-16553-M6886725` | Villa Country | Apto | 98.0 m² | 2 | 2 | 1 | $2.300.000 | Incluida | **$2.300.000** | $23.469 | **89.0** | [📲 WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MQ-16553-M6886725%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #12 | `MERGED-16553-M7051929-194252637` | Villa Country | Apto | 115.0 m² | 2 | 3 | 1 | $2.420.000 | Incluida | **$2.420.000** | $21.043 | **89.0** | [📲 WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-16553-M7051929-194252637%29%20por%20%242.420.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
 | #13 | `MQ-9851-M5863149` | Miramar | Apto | 69.0 m² | 3 | 2 | 1 | $1.554.600 | $245.400 | **$1.800.000** | $26.087 | **88.5** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Miramar%20%28Ref%3A%20MQ-9851-M5863149%29%20por%20%241.800.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #14 | `MQ-9851-M6918346` | Paraiso | Apto | 68.0 m² | 3 | 2 | 1 | $1.603.200 | $250.000 | **$1.853.200** | $27.253 | **88.5** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Paraiso%20%28Ref%3A%20MQ-9851-M6918346%29%20por%20%241.853.200%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
-| #15 | `MQ-671-M6901154` | San Vicente | Apto | 139.96 m² | 3 | 2 | 1 | $1.900.000 | $370.000 | **$2.270.000** | $16.219 | **88.5** | [📲 WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-671-M6901154%29%20por%20%242.270.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #14 | `MERGED-9851-M6918346-194068315` | Paraiso | Apto | 68.0 m² | 3 | 2 | 1 | $1.603.200 | $250.000 | **$1.853.200** | $27.253 | **88.5** | [📲 WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Paraiso%20%28Ref%3A%20MERGED-9851-M6918346-194068315%29%20por%20%241.853.200%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
+| #15 | `MQ-710-M6427115` | San Vicente | Apto | 135.0 m² | 2 | 2 | 1 | $1.900.000 | Incluida | **$1.900.000** | $14.074 | **88.5** | [📲 WhatsApp](https://wa.me/573204940443?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-710-M6427115%29%20por%20%241.900.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.) |
 
 ---
 
@@ -56,26 +56,26 @@ Matriz comparativa ordenada por el **Índice de Valor Multifactorial (MFVI)**. P
 A continuación se desglosa la información integral de cada una de las propiedades finalistas:
 
 ### Inmueble #1 — Apartamento en Arriendo en Villa country, Barranquilla
-**Referencia**: `MERGED-9851-M6987317-194267220` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
+**Referencia**: `MERGED-16553-M6780197-194162065` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
 
-![Foto Principal MERGED-9851-M6987317-194267220](https://multimedia.metrocuadrado.com/9851-M6987317/9851-M6987317_39.jpg)
+![Foto Principal MERGED-16553-M6780197-194162065](https://multimedia.metrocuadrado.com/16553-M6780197/16553-M6780197_12.jpg)
 
 #### 💰 Desglose Financiero
-- **Canon de Arrendamiento**: $1.680.000 COP
-- **Valor de Administración**: $720.000 COP
-- **COSTO TOTAL MENSUAL**: **$2.400.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$19.200 / m²**
+- **Canon de Arrendamiento**: $1.620.000 COP
+- **Valor de Administración**: $580.000 COP
+- **COSTO TOTAL MENSUAL**: **$2.200.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
+- **Eficiencia por Área**: **$17.600 / m²**
 
 #### 📐 Especificaciones Físicas y Distribución
-- **Ubicación**: Villa Country (Zona Norte), Cl. 78 #55, Norte Centro Historico, Barranquilla, Atlántico, Colombia
+- **Ubicación**: Villa Country (Zona Norte), Calle 79 # 55 - 120 Apto 6c Edificio NOVATERRA
 - **Tipo de Inmueble**: Apartamento
 - **Área Privada**: 125.0 m²
 - **Distribución**: 3 Habitaciones | 3 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 6
-- **Amenidades Detectadas**: Ascensor, Balcon, Parque Infantil
+- **Amenidades Detectadas**: Ascensor, Balcon
 
 #### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **95.5/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($19.200/m²), inmejorable ubicación premium en Villa Country, amplia distribución familiar (125.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.400.000 COP.
+> Inmueble con índice MFVI de **94.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($17.600/m²), inmejorable ubicación premium en Villa Country, amplia distribución familiar (125.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.200.000 COP.
 
 #### 🔍 Puntos Críticos a Verificar en la Visita Física
 - **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
@@ -85,88 +85,14 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Estado de carpintería y closets**: Revisar bisagras, humedad en clósets y estado general de muebles de cocina integral.
 
 #### 📲 Contacto Directo y Agendamiento
-- **Inmobiliaria / Asesor**: Agencia Linesco / FINANCAR S.A / Financar S.A. / Inmobiliaria
-- **Teléfono de Contacto**: `6053303333`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-9851-M6987317-194267220%29%20por%20%242.400.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-villa-country-3-habitaciones-2-banos/9851-M6987317)
+- **Inmobiliaria / Asesor**: CASARRIENDOS S.A.S. / Financar S.A. / Inmobiliaria
+- **Teléfono de Contacto**: `3012924451`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-16553-M6780197-194162065%29%20por%20%242.200.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-villa-country-3-habitaciones-3-banos-1-garajes/16553-M6780197)
 
 ---
 
-### Inmueble #2 — Apartamento en Arriendo, Riomar, Barranquilla
-**Referencia**: `MQ-22682-M6921099` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
-
-![Foto Principal MQ-22682-M6921099](https://multimedia.metrocuadrado.com/22682-M6921099/22682-M6921099_41.jpg)
-
-#### 💰 Desglose Financiero
-- **Canon de Arrendamiento**: $1.800.000 COP
-- **Valor de Administración**: Incluida ($0) COP
-- **COSTO TOTAL MENSUAL**: **$1.800.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$18.000 / m²**
-
-#### 📐 Especificaciones Físicas y Distribución
-- **Ubicación**: Riomar (Zona Noroccidente), Riomar, Barranquilla
-- **Tipo de Inmueble**: Apartamento
-- **Área Privada**: 100.0 m²
-- **Distribución**: 3 Habitaciones | 2 Baños | 1 Parqueadero(s)
-- **Estrato Socioeconómico**: Estrato 5
-- **Amenidades Detectadas**: Vigilancia, Cocina Integral, Balcon
-
-#### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **94.5/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($18.000/m²), inmejorable ubicación premium en Riomar, amplia distribución familiar (100.0m² con 3 alcobas), administración incluida en el canon mensual. Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $1.800.000 COP.
-
-#### 🔍 Puntos Críticos a Verificar en la Visita Física
-- **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
-- **Orientación solar y ventilación cruzada**: Validar si el apartamento queda del lado sombra en las tardes caribeñas (minimiza sustancialmente el consumo de aire acondicionado).
-- **Suplencia eléctrica**: Consultar en portería/administración si la planta eléctrica del edificio cubre únicamente áreas comunes o tiene transferencia a puntos esenciales del apartamento (luces/nevera).
-- **Parqueadero privado**: Probar maniobra de estacionamiento en el slot asignado y confirmar si es cubierto o descubierto.
-- **Estado de carpintería y closets**: Revisar bisagras, humedad en clósets y estado general de muebles de cocina integral.
-
-#### 📲 Contacto Directo y Agendamiento
-- **Inmobiliaria / Asesor**: Inmobiliaria
-- **Teléfono de Contacto**: `3180182044`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573178020627?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Riomar%20%28Ref%3A%20MQ-22682-M6921099%29%20por%20%241.800.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-riomar-3-habitaciones-2-banos-1-garajes/22682-M6921099)
-
----
-
-### Inmueble #3 — Apartamento en Arriendo, Altos De Riomar, Barranquilla
-**Referencia**: `MQ-671-M6825607` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
-
-![Foto Principal MQ-671-M6825607](https://multimedia.metrocuadrado.com/671-M6825607/671-M6825607_39.jpg)
-
-#### 💰 Desglose Financiero
-- **Canon de Arrendamiento**: $1.567.700 COP
-- **Valor de Administración**: $532.300 COP
-- **COSTO TOTAL MENSUAL**: **$2.100.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$19.444 / m²**
-
-#### 📐 Especificaciones Físicas y Distribución
-- **Ubicación**: Altos de Riomar (Zona Noroccidente), Altos de Riomar, Barranquilla
-- **Tipo de Inmueble**: Apartamento
-- **Área Privada**: 108.0 m²
-- **Distribución**: 3 Habitaciones | 3 Baños | 1 Parqueadero(s)
-- **Estrato Socioeconómico**: Estrato 6
-- **Amenidades Detectadas**: Cocina Integral, Porteria
-
-#### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **94.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($19.444/m²), inmejorable ubicación premium en Altos de Riomar, amplia distribución familiar (108.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.100.000 COP.
-
-#### 🔍 Puntos Críticos a Verificar en la Visita Física
-- **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
-- **Orientación solar y ventilación cruzada**: Validar si el apartamento queda del lado sombra en las tardes caribeñas (minimiza sustancialmente el consumo de aire acondicionado).
-- **Suplencia eléctrica**: Consultar en portería/administración si la planta eléctrica del edificio cubre únicamente áreas comunes o tiene transferencia a puntos esenciales del apartamento (luces/nevera).
-- **Parqueadero privado**: Probar maniobra de estacionamiento en el slot asignado y confirmar si es cubierto o descubierto.
-- **Estado de carpintería y closets**: Revisar bisagras, humedad en clósets y estado general de muebles de cocina integral.
-
-#### 📲 Contacto Directo y Agendamiento
-- **Inmobiliaria / Asesor**: Inmobiliaria
-- **Teléfono de Contacto**: `3104736731`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MQ-671-M6825607%29%20por%20%242.100.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-altos-de-riomar-3-habitaciones-3-banos-1-garajes/671-M6825607)
-
----
-
-### Inmueble #4 — Apartamento en Arriendo, Altos De Riomar, Barranquilla
+### Inmueble #2 — Apartamento en Arriendo, Altos De Riomar, Barranquilla
 **Referencia**: `MQ-9851-M6595771` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
 
 ![Foto Principal MQ-9851-M6595771](https://multimedia.metrocuadrado.com/9851-M6595771/9851-M6595771_117.jpg)
@@ -183,7 +109,7 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Área Privada**: 97.0 m²
 - **Distribución**: 3 Habitaciones | 2 Baños | 2 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 6
-- **Amenidades Detectadas**: Vigilancia, Cocina Integral
+- **Amenidades Detectadas**: Cocina Integral, Vigilancia
 
 #### 💡 Tesis del Curador
 > Inmueble con índice MFVI de **94.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($24.330/m²), inmejorable ubicación premium en Altos de Riomar, amplia distribución familiar (97.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.360.000 COP.
@@ -203,27 +129,64 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 ---
 
-### Inmueble #5 — Apartamento en Arriendo en Altos de riomar, Barranquilla
-**Referencia**: `MERGED-671-M6797858-194140121` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
+### Inmueble #3 — Apartamento en Arriendo en Altos de riomar, Barranquilla
+**Referencia**: `MERGED-671-M6797858-191375736` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
 
-![Foto Principal MERGED-671-M6797858-194140121](https://multimedia.metrocuadrado.com/671-M6797858/671-M6797858_15.jpg)
+![Foto Principal MERGED-671-M6797858-191375736](https://multimedia.metrocuadrado.com/671-M6797858/671-M6797858_15.jpg)
 
 #### 💰 Desglose Financiero
 - **Canon de Arrendamiento**: $1.785.000 COP
 - **Valor de Administración**: $515.000 COP
 - **COSTO TOTAL MENSUAL**: **$2.300.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$19.167 / m²**
+- **Eficiencia por Área**: **$18.699 / m²**
 
 #### 📐 Especificaciones Físicas y Distribución
-- **Ubicación**: Altos de Riomar (Zona Noroccidente), Altos de Riomar, Barranquilla
+- **Ubicación**: Altos de Riomar (Zona Noroccidente), Calle 84 # 59 - 43 Edificio Turín Apto 3B
 - **Tipo de Inmueble**: Apartamento
-- **Área Privada**: 120.0 m²
+- **Área Privada**: 123.0 m²
 - **Distribución**: 3 Habitaciones | 3 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 5
-- **Amenidades Detectadas**: Cocina Integral, Ascensor
+- **Amenidades Detectadas**: Ascensor, Cocina Integral
 
 #### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **93.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($19.167/m²), inmejorable ubicación premium en Altos de Riomar, amplia distribución familiar (120.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.300.000 COP.
+> Inmueble con índice MFVI de **93.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($18.699/m²), inmejorable ubicación premium en Altos de Riomar, amplia distribución familiar (123.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.300.000 COP.
+
+#### 🔍 Puntos Críticos a Verificar en la Visita Física
+- **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
+- **Orientación solar y ventilación cruzada**: Validar si el apartamento queda del lado sombra en las tardes caribeñas (minimiza sustancialmente el consumo de aire acondicionado).
+- **Suplencia eléctrica**: Consultar en portería/administración si la planta eléctrica del edificio cubre únicamente áreas comunes o tiene transferencia a puntos esenciales del apartamento (luces/nevera).
+- **Parqueadero privado**: Probar maniobra de estacionamiento en el slot asignado y confirmar si es cubierto o descubierto.
+- **Estado de carpintería y closets**: Revisar bisagras, humedad en clósets y estado general de muebles de cocina integral.
+
+#### 📲 Contacto Directo y Agendamiento
+- **Inmobiliaria / Asesor**: ASESORAR INMOBILIARIA DEL CARIBE S.A.S / Inmobiliaria / Issa Saieh Inmobiliaria
+- **Teléfono de Contacto**: `3104736731`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MERGED-671-M6797858-191375736%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-altos-de-riomar-3-habitaciones-2-banos-1-garajes/671-M6797858)
+
+---
+
+### Inmueble #4 — Apartamento en Arriendo en Villa santos, Barranquilla
+**Referencia**: `MERGED-16553-M6120612-194140114` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
+
+![Foto Principal MERGED-16553-M6120612-194140114](https://multimedia.metrocuadrado.com/16553-M6120612/16553-M6120612_161.jpg)
+
+#### 💰 Desglose Financiero
+- **Canon de Arrendamiento**: $2.300.000 COP
+- **Valor de Administración**: Incluida ($0) COP
+- **COSTO TOTAL MENSUAL**: **$2.300.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
+- **Eficiencia por Área**: **$19.008 / m²**
+
+#### 📐 Especificaciones Físicas y Distribución
+- **Ubicación**: Villa Santos (Zona Noroccidente), Carrera 49C # 100 - 33 Edificio Genesis Apto 2B
+- **Tipo de Inmueble**: Apartamento
+- **Área Privada**: 121.0 m²
+- **Distribución**: 3 Habitaciones | 3 Baños | 1 Parqueadero(s)
+- **Estrato Socioeconómico**: Estrato 5
+- **Amenidades Detectadas**: Salon Social, Porteria, Cocina Integral
+
+#### 💡 Tesis del Curador
+> Inmueble con índice MFVI de **91.5/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($19.008/m²), excelente entorno residencial moderno en Villa Santos, amplia distribución familiar (121.0m² con 3 alcobas), administración incluida en el canon mensual. Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.300.000 COP.
 
 #### 🔍 Puntos Críticos a Verificar en la Visita Física
 - **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
@@ -234,32 +197,32 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 #### 📲 Contacto Directo y Agendamiento
 - **Inmobiliaria / Asesor**: ASESORAR INMOBILIARIA DEL CARIBE S.A.S / Inmobiliaria
-- **Teléfono de Contacto**: `3104736731`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Altos%20de%20Riomar%20%28Ref%3A%20MERGED-671-M6797858-194140121%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-altos-de-riomar-3-habitaciones-2-banos-1-garajes/671-M6797858)
+- **Teléfono de Contacto**: `3012924451`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Santos%20%28Ref%3A%20MERGED-16553-M6120612-194140114%29%20por%20%242.300.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-villa-santos-3-habitaciones-3-banos-1-garajes/16553-M6120612)
 
 ---
 
-### Inmueble #6 — Apartamento en Arriendo en Villa country, Barranquilla
-**Referencia**: `MERGED-16553-M6780197-194139995` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
+### Inmueble #5 — Apartamento en Arriendo, ALTO DE RIOMAR   Noroccidente, Barranquilla
+**Referencia**: `MQ-MC6893700` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
 
-![Foto Principal MERGED-16553-M6780197-194139995](https://multimedia.metrocuadrado.com/16553-M6780197/16553-M6780197_12.jpg)
+![Foto Principal MQ-MC6893700](https://multimedia.metrocuadrado.com/MC6893700/MC6893700_1.jpg)
 
 #### 💰 Desglose Financiero
-- **Canon de Arrendamiento**: $2.200.000 COP
-- **Valor de Administración**: Incluida ($0) COP
-- **COSTO TOTAL MENSUAL**: **$2.200.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$18.182 / m²**
+- **Canon de Arrendamiento**: $1.300.000 COP
+- **Valor de Administración**: $490.000 COP
+- **COSTO TOTAL MENSUAL**: **$1.790.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
+- **Eficiencia por Área**: **$18.454 / m²**
 
 #### 📐 Especificaciones Físicas y Distribución
-- **Ubicación**: Villa Country (Zona Norte), Villa Country, Barranquilla
+- **Ubicación**: Alto de Riomar (Zona Noroccidente), Alto de Riomar, Barranquilla
 - **Tipo de Inmueble**: Apartamento
-- **Área Privada**: 121.0 m²
-- **Distribución**: 3 Habitaciones | 3 Baños | 1 Parqueadero(s)
+- **Área Privada**: 97.0 m²
+- **Distribución**: 4 Habitaciones | 3 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 6
 
 #### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **91.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($18.182/m²), inmejorable ubicación premium en Villa Country, amplia distribución familiar (121.0m² con 3 alcobas), administración incluida en el canon mensual. Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.200.000 COP.
+> Inmueble con índice MFVI de **91.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($18.454/m²), inmejorable ubicación premium en Alto de Riomar, amplia distribución familiar (97.0m² con 4 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $1.790.000 COP.
 
 #### 🔍 Puntos Críticos a Verificar en la Visita Física
 - **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
@@ -269,33 +232,33 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Estado de carpintería y closets**: Revisar bisagras, humedad en clósets y estado general de muebles de cocina integral.
 
 #### 📲 Contacto Directo y Agendamiento
-- **Inmobiliaria / Asesor**: ASESORAR INMOBILIARIA DEL CARIBE S.A.S / CASARRIENDOS SAS / Inmobiliaria
-- **Teléfono de Contacto**: `3012924451`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-16553-M6780197-194139995%29%20por%20%242.200.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-villa-country-3-habitaciones-3-banos-1-garajes/16553-M6780197)
+- **Inmobiliaria / Asesor**: Persona natural
+- **Teléfono de Contacto**: `3232226052`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573232226052?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Alto%20de%20Riomar%20%28Ref%3A%20MQ-MC6893700%29%20por%20%241.790.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-riomar-4-habitaciones-3-banos-1-garajes/MC6893700)
 
 ---
 
-### Inmueble #7 — Apartamento en  Arriendo en Villa country, Barranquilla
-**Referencia**: `MERGED-9851-M5526250-191875732` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
+### Inmueble #6 — Apartamento en Arriendo, Villa Country, Barranquilla
+**Referencia**: `MQ-9851-M5526250` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
 
-![Foto Principal MERGED-9851-M5526250-191875732](https://multimedia.metrocuadrado.com/9851-M5526250/9851-M5526250_17.jpg)
+![Foto Principal MQ-9851-M5526250](https://multimedia.metrocuadrado.com/9851-M5526250/9851-M5526250_17.jpg)
 
 #### 💰 Desglose Financiero
-- **Canon de Arrendamiento**: $1.970.000 COP
+- **Canon de Arrendamiento**: $1.820.000 COP
 - **Valor de Administración**: $530.000 COP
-- **COSTO TOTAL MENSUAL**: **$2.500.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$23.810 / m²**
+- **COSTO TOTAL MENSUAL**: **$2.350.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
+- **Eficiencia por Área**: **$22.381 / m²**
 
 #### 📐 Especificaciones Físicas y Distribución
-- **Ubicación**: Villa Country (Zona Norte), Calle 78 # 57 - 180 Edificio BALCONES DEL COUNTRY Apto 606
+- **Ubicación**: Villa Country (Zona Norte), Villa Country, Barranquilla
 - **Tipo de Inmueble**: Apartamento
 - **Área Privada**: 105.0 m²
 - **Distribución**: 3 Habitaciones | 2 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 6
 
 #### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **91.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($23.810/m²), inmejorable ubicación premium en Villa Country, amplia distribución familiar (105.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.500.000 COP.
+> Inmueble con índice MFVI de **91.0/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($22.381/m²), inmejorable ubicación premium en Villa Country, amplia distribución familiar (105.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.350.000 COP.
 
 #### 🔍 Puntos Críticos a Verificar en la Visita Física
 - **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
@@ -305,17 +268,17 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Estado de carpintería y closets**: Revisar bisagras, humedad en clósets y estado general de muebles de cocina integral.
 
 #### 📲 Contacto Directo y Agendamiento
-- **Inmobiliaria / Asesor**: FINANCAR S.A / Financar S.A.
+- **Inmobiliaria / Asesor**: FINANCAR S.A / Inmobiliaria
 - **Teléfono de Contacto**: `6053303333`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-9851-M5526250-191875732%29%20por%20%242.500.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-villa-country-3-habitaciones-2-banos-1-garajes/9851-M5526250)
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MQ-9851-M5526250%29%20por%20%242.350.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-villa-country-3-habitaciones-2-banos-1-garajes/9851-M5526250)
 
 ---
 
-### Inmueble #8 — Apartamento en Arriendo, El Tabor, Barranquilla
-**Referencia**: `MQ-23769-M7006552` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
+### Inmueble #7 — Apartamento en Arriendo, El Tabor, Barranquilla
+**Referencia**: `MQ-9851-M6921994` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
 
-![Foto Principal MQ-23769-M7006552](https://multimedia.metrocuadrado.com/23769-M7006552/23769-M7006552_1.jpg)
+![Foto Principal MQ-9851-M6921994](https://multimedia.metrocuadrado.com/9851-M6921994/9851-M6921994_71.jpg)
 
 #### 💰 Desglose Financiero
 - **Canon de Arrendamiento**: $1.350.000 COP
@@ -329,7 +292,7 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Área Privada**: 113.0 m²
 - **Distribución**: 3 Habitaciones | 2 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 5
-- **Amenidades Detectadas**: Vigilancia, Parque Infantil, Salon Social, Piscina, Balcon
+- **Amenidades Detectadas**: Salon Social, Vigilancia, Balcon, Parque Infantil, Piscina
 
 #### 💡 Tesis del Curador
 > Inmueble con índice MFVI de **90.5/100** (Diamante). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($17.699/m²), gran sector residencial consolidado en El Tabor, amplia distribución familiar (113.0m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.000.000 COP.
@@ -343,13 +306,13 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 #### 📲 Contacto Directo y Agendamiento
 - **Inmobiliaria / Asesor**: FINANCAR S.A / Inmobiliaria
-- **Teléfono de Contacto**: `3163344763`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573163344763?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20El%20Tabor%20%28Ref%3A%20MQ-23769-M7006552%29%20por%20%242.000.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-el-tabor-3-habitaciones-2-banos-1-garajes/23769-M7006552)
+- **Teléfono de Contacto**: `6053303333`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20El%20Tabor%20%28Ref%3A%20MQ-9851-M6921994%29%20por%20%242.000.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-el-tabor-3-habitaciones-2-banos-1-garajes/9851-M6921994)
 
 ---
 
-### Inmueble #9 — Apartamento en Arriendo, Altos De Riomar, Barranquilla
+### Inmueble #8 — Apartamento en Arriendo, Altos De Riomar, Barranquilla
 **Referencia**: `MQ-23769-M7006894` · **Portal**: `Metrocuadrado` · **Calificación**: 🏆 Selección Diamante (Prioridad #1)
 
 ![Foto Principal MQ-23769-M7006894](https://multimedia.metrocuadrado.com/23769-M7006894/23769-M7006894_36.jpg)
@@ -386,16 +349,16 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 ---
 
-### Inmueble #10 — Apartamento en Arriendo, San Vicente, Barranquilla
-**Referencia**: `MQ-671-M5946897` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
+### Inmueble #9 — Apartamento en Arriendo, San Vicente, Barranquilla
+**Referencia**: `MQ-13957-M7066013` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
 
-![Foto Principal MQ-671-M5946897](https://multimedia.metrocuadrado.com/671-M5946897/671-M5946897_49.jpg)
+![Foto Principal MQ-13957-M7066013](https://multimedia.metrocuadrado.com/13957-M7066013/13957-M7066013_21.jpg)
 
 #### 💰 Desglose Financiero
-- **Canon de Arrendamiento**: $1.364.000 COP
+- **Canon de Arrendamiento**: $1.500.000 COP
 - **Valor de Administración**: $350.000 COP
-- **COSTO TOTAL MENSUAL**: **$1.714.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$24.486 / m²**
+- **COSTO TOTAL MENSUAL**: **$1.850.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
+- **Eficiencia por Área**: **$26.429 / m²**
 
 #### 📐 Especificaciones Físicas y Distribución
 - **Ubicación**: San Vicente (Zona Norte), San Vicente, Barranquilla
@@ -403,10 +366,10 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Área Privada**: 70.0 m²
 - **Distribución**: 2 Habitaciones | 2 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 5
-- **Amenidades Detectadas**: Piscina, Cocina Integral, Vigilancia
+- **Amenidades Detectadas**: Vigilancia, Ascensor, Piscina
 
 #### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **89.5/100** (Oro). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($24.486/m²), gran sector residencial consolidado en San Vicente, distribución funcional con 2 alcobas y parqueadero privado. Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $1.714.000 COP.
+> Inmueble con índice MFVI de **89.5/100** (Oro). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($26.429/m²), gran sector residencial consolidado en San Vicente, distribución funcional con 2 alcobas y parqueadero privado. Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $1.850.000 COP.
 
 #### 🔍 Puntos Críticos a Verificar en la Visita Física
 - **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
@@ -415,14 +378,14 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Parqueadero privado**: Probar maniobra de estacionamiento en el slot asignado y confirmar si es cubierto o descubierto.
 
 #### 📲 Contacto Directo y Agendamiento
-- **Inmobiliaria / Asesor**: Inmobiliaria
-- **Teléfono de Contacto**: `3104736731`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-671-M5946897%29%20por%20%241.714.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-san-vicente-2-habitaciones-2-banos-1-garajes/671-M5946897)
+- **Inmobiliaria / Asesor**: CONINSA RAMON H. S.A. / Inmobiliaria
+- **Teléfono de Contacto**: `3241000082`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573102668256?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-13957-M7066013%29%20por%20%241.850.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-san-vicente-2-habitaciones-2-banos/13957-M7066013)
 
 ---
 
-### Inmueble #11 — Apartamento en Arriendo, Villa Santos, Barranquilla
+### Inmueble #10 — Apartamento en Arriendo, Villa Santos, Barranquilla
 **Referencia**: `MQ-23769-M7006602` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
 
 ![Foto Principal MQ-23769-M7006602](https://multimedia.metrocuadrado.com/23769-M7006602/23769-M7006602_1.jpg)
@@ -459,7 +422,7 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 ---
 
-### Inmueble #12 — Apartamento en Arriendo, Villa Country, Barranquilla
+### Inmueble #11 — Apartamento en Arriendo, Villa Country, Barranquilla
 **Referencia**: `MQ-16553-M6886725` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
 
 ![Foto Principal MQ-16553-M6886725](https://multimedia.metrocuadrado.com/16553-M6886725/16553-M6886725_21.jpg)
@@ -495,6 +458,42 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 ---
 
+### Inmueble #12 — Apartamento en Arriendo en Villa country, Barranquilla
+**Referencia**: `MERGED-16553-M7051929-194252637` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
+
+![Foto Principal MERGED-16553-M7051929-194252637](https://multimedia.metrocuadrado.com/16553-M7051929/16553-M7051929_1.jpg)
+
+#### 💰 Desglose Financiero
+- **Canon de Arrendamiento**: $2.420.000 COP
+- **Valor de Administración**: Incluida ($0) COP
+- **COSTO TOTAL MENSUAL**: **$2.420.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
+- **Eficiencia por Área**: **$21.043 / m²**
+
+#### 📐 Especificaciones Físicas y Distribución
+- **Ubicación**: Villa Country (Zona Norte), Villa Country, Barranquilla
+- **Tipo de Inmueble**: Apartamento
+- **Área Privada**: 115.0 m²
+- **Distribución**: 2 Habitaciones | 3 Baños | 1 Parqueadero(s)
+- **Estrato Socioeconómico**: Estrato 5
+
+#### 💡 Tesis del Curador
+> Inmueble con índice MFVI de **89.0/100** (Oro). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($21.043/m²), inmejorable ubicación premium en Villa Country, distribución funcional con 2 alcobas y parqueadero privado, administración incluida en el canon mensual. Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.420.000 COP.
+
+#### 🔍 Puntos Críticos a Verificar en la Visita Física
+- **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
+- **Orientación solar y ventilación cruzada**: Validar si el apartamento queda del lado sombra en las tardes caribeñas (minimiza sustancialmente el consumo de aire acondicionado).
+- **Suplencia eléctrica**: Consultar en portería/administración si la planta eléctrica del edificio cubre únicamente áreas comunes o tiene transferencia a puntos esenciales del apartamento (luces/nevera).
+- **Parqueadero privado**: Probar maniobra de estacionamiento en el slot asignado y confirmar si es cubierto o descubierto.
+- **Estado de carpintería y closets**: Revisar bisagras, humedad en clósets y estado general de muebles de cocina integral.
+
+#### 📲 Contacto Directo y Agendamiento
+- **Inmobiliaria / Asesor**: ASESORAR INMOBILIARIA DEL CARIBE S.A.S / Inmobiliaria
+- **Teléfono de Contacto**: `3012924451`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573012924451?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Villa%20Country%20%28Ref%3A%20MERGED-16553-M7051929-194252637%29%20por%20%242.420.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-villa-country-2-habitaciones-3-banos-1-garajes/16553-M7051929)
+
+---
+
 ### Inmueble #13 — Apartamento en Arriendo, Miramar, Barranquilla
 **Referencia**: `MQ-9851-M5863149` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
 
@@ -512,7 +511,7 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Área Privada**: 69.0 m²
 - **Distribución**: 3 Habitaciones | 2 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 4
-- **Amenidades Detectadas**: Parque Infantil, Salon Social, Piscina, Cocina Integral, Balcon
+- **Amenidades Detectadas**: Salon Social, Balcon, Piscina, Parque Infantil, Cocina Integral
 
 #### 💡 Tesis del Curador
 > Inmueble con índice MFVI de **88.5/100** (Oro). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($26.087/m²), gran sector residencial consolidado en Miramar, distribución funcional con 3 alcobas y parqueadero privado, cuota de administración moderada ($245.400). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $1.800.000 COP.
@@ -531,10 +530,10 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 ---
 
-### Inmueble #14 — Apartamento en Arriendo, Paraiso, Barranquilla
-**Referencia**: `MQ-9851-M6918346` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
+### Inmueble #14 — Apartamento en Arriendo en Paraiso, Barranquilla
+**Referencia**: `MERGED-9851-M6918346-194068315` · **Portal**: `Metrocuadrado + Finca Raiz` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
 
-![Foto Principal MQ-9851-M6918346](https://multimedia.metrocuadrado.com/9851-M6918346/9851-M6918346_21.jpg)
+![Foto Principal MERGED-9851-M6918346-194068315](https://multimedia.metrocuadrado.com/9851-M6918346/9851-M6918346_21.jpg)
 
 #### 💰 Desglose Financiero
 - **Canon de Arrendamiento**: $1.603.200 COP
@@ -543,12 +542,12 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Eficiencia por Área**: **$27.253 / m²**
 
 #### 📐 Especificaciones Físicas y Distribución
-- **Ubicación**: Paraiso (Zona Norte), Paraiso, Barranquilla
+- **Ubicación**: Paraiso (Zona Norte), Carrera 75 # 78 - 54 Apto 903 T5 Edificio PARAISO CARIBE
 - **Tipo de Inmueble**: Apartamento
 - **Área Privada**: 68.0 m²
 - **Distribución**: 3 Habitaciones | 2 Baños | 1 Parqueadero(s)
 - **Estrato Socioeconómico**: Estrato 4
-- **Amenidades Detectadas**: Gimnasio, Parque Infantil, Salon Social, Piscina, Cocina Integral
+- **Amenidades Detectadas**: Gimnasio, Salon Social, Piscina, Parque Infantil, Cocina Integral
 
 #### 💡 Tesis del Curador
 > Inmueble con índice MFVI de **88.5/100** (Oro). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($27.253/m²), gran sector residencial consolidado en Paraiso, distribución funcional con 3 alcobas y parqueadero privado, cuota de administración moderada ($250.000). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $1.853.200 COP.
@@ -560,34 +559,34 @@ A continuación se desglosa la información integral de cada una de las propieda
 - **Parqueadero privado**: Probar maniobra de estacionamiento en el slot asignado y confirmar si es cubierto o descubierto.
 
 #### 📲 Contacto Directo y Agendamiento
-- **Inmobiliaria / Asesor**: FINANCAR S.A
+- **Inmobiliaria / Asesor**: FINANCAR S.A / Financar S.A.
 - **Teléfono de Contacto**: `6053303333`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Paraiso%20%28Ref%3A%20MQ-9851-M6918346%29%20por%20%241.853.200%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-paraiso-3-habitaciones-2-banos-1-garajes/9851-M6918346)
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573176969321?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20Paraiso%20%28Ref%3A%20MERGED-9851-M6918346-194068315%29%20por%20%241.853.200%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado + Finca Raiz ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-paraiso-3-habitaciones-2-banos-1-garajes/9851-M6918346)
 
 ---
 
 ### Inmueble #15 — Apartamento en Arriendo, San Vicente, Barranquilla
-**Referencia**: `MQ-671-M6901154` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
+**Referencia**: `MQ-710-M6427115` · **Portal**: `Metrocuadrado` · **Calificación**: 🌟 Selección Oro (Excelente Relación Valor)
 
-![Foto Principal MQ-671-M6901154](https://multimedia.metrocuadrado.com/671-M6901154/671-M6901154_17.jpg)
+![Foto Principal MQ-710-M6427115](https://multimedia.metrocuadrado.com/710-M6427115/710-M6427115_103.jpg)
 
 #### 💰 Desglose Financiero
 - **Canon de Arrendamiento**: $1.900.000 COP
-- **Valor de Administración**: $370.000 COP
-- **COSTO TOTAL MENSUAL**: **$2.270.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
-- **Eficiencia por Área**: **$16.219 / m²**
+- **Valor de Administración**: Incluida ($0) COP
+- **COSTO TOTAL MENSUAL**: **$1.900.000 COP** *(Presupuesto verificado ≤ $2.500.000)*
+- **Eficiencia por Área**: **$14.074 / m²**
 
 #### 📐 Especificaciones Físicas y Distribución
 - **Ubicación**: San Vicente (Zona Norte), San Vicente, Barranquilla
 - **Tipo de Inmueble**: Apartamento
-- **Área Privada**: 139.96 m²
-- **Distribución**: 3 Habitaciones | 2 Baños | 1 Parqueadero(s)
-- **Estrato Socioeconómico**: Estrato 5
+- **Área Privada**: 135.0 m²
+- **Distribución**: 2 Habitaciones | 2 Baños | 1 Parqueadero(s)
+- **Estrato Socioeconómico**: Estrato 6
 - **Amenidades Detectadas**: Cocina Integral
 
 #### 💡 Tesis del Curador
-> Inmueble con índice MFVI de **88.5/100** (Oro). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($16.219/m²), gran sector residencial consolidado en San Vicente, amplia distribución familiar (139.96m² con 3 alcobas). Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $2.270.000 COP.
+> Inmueble con índice MFVI de **88.5/100** (Oro). Sobresale en el mercado de Barranquilla Norte por su extraordinaria eficiencia de costo por metro cuadrado ($14.074/m²), gran sector residencial consolidado en San Vicente, distribución funcional con 2 alcobas y parqueadero privado, administración incluida en el canon mensual. Representa una oportunidad de alto valor para agendamiento prioritario dentro del presupuesto de $1.900.000 COP.
 
 #### 🔍 Puntos Críticos a Verificar en la Visita Física
 - **Presión hidráulica y suministro**: Abrir duchas y lavamanos simultáneamente para verificar caudal y corroborar funcionamiento de motobombas o tanques de reserva del edificio.
@@ -598,9 +597,9 @@ A continuación se desglosa la información integral de cada una de las propieda
 
 #### 📲 Contacto Directo y Agendamiento
 - **Inmobiliaria / Asesor**: Inmobiliaria
-- **Teléfono de Contacto**: `3104736731`
-- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573160232662?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-671-M6901154%29%20por%20%242.270.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
-- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-san-vicente-3-habitaciones-2-banos-1-garajes/671-M6901154)
+- **Teléfono de Contacto**: `3204940443`
+- **Iniciar Chat de WhatsApp Inmediato**: [👉 Clic aquí para coordinar visita en WhatsApp](https://wa.me/573204940443?text=Hola%2C%20cordial%20saludo.%20Vi%20la%20publicaci%C3%B3n%20del%20apartamento%20en%20San%20Vicente%20%28Ref%3A%20MQ-710-M6427115%29%20por%20%241.900.000%20COP%20mensual%20con%20administraci%C3%B3n%20incluida.%20Tengo%20inter%C3%A9s%20serio%20en%20agendar%20una%20visita%20f%C3%ADsica%20esta%20semana.%20%C2%BFQu%C3%A9%20d%C3%ADas%20y%20horarios%20tienen%20disponibles%20para%20coordinar%3F%20Muchas%20gracias.)
+- **Publicación Oficial**: [Ver anuncio original en Metrocuadrado ↗](https://www.metrocuadrado.com/inmueble/arriendo-apartamento-barranquilla-san-vicente-2-habitaciones-2-banos-1-garajes/710-M6427115)
 
 ---
 
